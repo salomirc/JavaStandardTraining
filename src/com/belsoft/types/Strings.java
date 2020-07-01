@@ -1,4 +1,4 @@
-package com.belsoft;
+package com.belsoft.types;
 
 public class Strings {
 

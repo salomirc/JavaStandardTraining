@@ -1,4 +1,4 @@
-package com.belsoft;
+package com.belsoft.types;
 
 import java.text.NumberFormat;
 import java.util.Locale;
