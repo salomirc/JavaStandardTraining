@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="087154aa-323b-49ae-a7be-718c32ee6b39" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/5/25c66f10aa7e253d4f990962548a707892bf1025" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/7/c70c89cae1cfea6a453c577a7a52bcbbafa53f99" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/belsoft/FormattingNumbers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/belsoft/ReadingInput.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/belsoft/TheMathClass.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/belsoft/Casting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/belsoft/Casting.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,7 +23,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="RemoveSonarLint" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -40,33 +41,7 @@
     <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../HelloWorld" />
   </component>
-  <component name="RunManager" selected="Application.Casting">
-    <configuration name="ArithmeticExpressions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.belsoft.ArithmeticExpressions" />
-      <module name="JavaStandardTraining" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.belsoft.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ArraysInJava" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.belsoft.ArraysInJava" />
-      <module name="JavaStandardTraining" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.belsoft.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.ReadingInput">
     <configuration name="Casting" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.belsoft.Casting" />
       <module name="JavaStandardTraining" />
@@ -80,8 +55,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MultiDimensionalArrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.belsoft.MultiDimensionalArrays" />
+    <configuration name="FormattingNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.belsoft.FormattingNumbers" />
       <module name="JavaStandardTraining" />
       <extension name="coverage">
         <pattern>
@@ -106,20 +81,46 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ReadingInput" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.belsoft.ReadingInput" />
+      <module name="JavaStandardTraining" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.belsoft.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TheMathClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.belsoft.TheMathClass" />
+      <module name="JavaStandardTraining" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.belsoft.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.MultiDimensionalArrays" />
-      <item itemvalue="Application.ArithmeticExpressions" />
-      <item itemvalue="Application.ArraysInJava" />
       <item itemvalue="Application.OrderOfOperations" />
       <item itemvalue="Application.Casting" />
+      <item itemvalue="Application.TheMathClass" />
+      <item itemvalue="Application.FormattingNumbers" />
+      <item itemvalue="Application.ReadingInput" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ReadingInput" />
+        <item itemvalue="Application.FormattingNumbers" />
+        <item itemvalue="Application.TheMathClass" />
         <item itemvalue="Application.Casting" />
         <item itemvalue="Application.OrderOfOperations" />
-        <item itemvalue="Application.ArithmeticExpressions" />
-        <item itemvalue="Application.MultiDimensionalArrays" />
-        <item itemvalue="Application.ArraysInJava" />
       </list>
     </recent_temporary>
   </component>
@@ -148,19 +149,27 @@
       <option name="project" value="LOCAL" />
       <updated>1593599006305</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Remove sonar lint files from project.">
+      <created>1593600563071</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1593600563071</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial progress update." />
     <MESSAGE value="Java Types part I" />
-    <option name="LAST_COMMIT_MESSAGE" value="Java Types part I" />
+    <MESSAGE value="Remove sonar lint files from project." />
+    <option name="LAST_COMMIT_MESSAGE" value="Remove sonar lint files from project." />
   </component>
   <component name="WindowStateProjectService">
-    <state x="0" y="0" width="1915" height="1040" key="CommitChangelistDialog2" timestamp="1593599006206">
+    <state x="0" y="0" width="1915" height="1040" key="CommitChangelistDialog2" timestamp="1593600562977">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="0" y="0" width="1915" height="1040" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1593599006206" />
+    <state x="0" y="0" width="1915" height="1040" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1593600562977" />
     <state x="690" y="220" width="530" height="598" key="FileChooserDialogImpl" timestamp="1593079836700">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -173,22 +182,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="624" y="158" width="662" height="722" key="Github.UntrackedFilesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1593079771061" />
-    <state width="1864" height="259" key="GridCell.Tab.0.bottom" timestamp="1593600228506">
+    <state width="1864" height="259" key="GridCell.Tab.0.bottom" timestamp="1593612974322">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1864" height="259" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1593600228506" />
-    <state width="1864" height="259" key="GridCell.Tab.0.center" timestamp="1593600228504">
+    <state width="1864" height="259" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1593612974322" />
+    <state width="1864" height="259" key="GridCell.Tab.0.center" timestamp="1593612974322">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1864" height="259" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1593600228504" />
-    <state width="1864" height="259" key="GridCell.Tab.0.left" timestamp="1593600228503">
+    <state width="1864" height="259" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1593612974322" />
+    <state width="1864" height="259" key="GridCell.Tab.0.left" timestamp="1593612974322">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1864" height="259" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1593600228503" />
-    <state width="1864" height="259" key="GridCell.Tab.0.right" timestamp="1593600228505">
+    <state width="1864" height="259" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1593612974322" />
+    <state width="1864" height="259" key="GridCell.Tab.0.right" timestamp="1593612974322">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1864" height="259" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1593600228505" />
+    <state width="1864" height="259" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1593612974322" />
     <state width="1864" height="322" key="GridCell.Tab.1.bottom" timestamp="1593549189790">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -205,13 +214,17 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1864" height="322" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1593549189790" />
-    <state x="455" y="192" width="1000" height="654" key="Vcs.Push.Dialog.v2" timestamp="1593599941238">
+    <state x="455" y="192" width="1000" height="654" key="Vcs.Push.Dialog.v2" timestamp="1593600580617">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="455" y="192" width="1000" height="654" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1593599941238" />
-    <state x="539" y="5" width="840" height="1034" key="search.everywhere.popup" timestamp="1593535470733">
+    <state x="455" y="192" width="1000" height="654" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1593600580617" />
+    <state x="540" y="233" key="run.anything.popup" timestamp="1593601901629">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="539" y="5" width="840" height="1034" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1593535470733" />
+    <state x="540" y="233" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1593601901629" />
+    <state x="539" y="5" width="840" height="1034" key="search.everywhere.popup" timestamp="1593613257733">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="539" y="5" width="840" height="1034" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1593613257733" />
   </component>
 </project>

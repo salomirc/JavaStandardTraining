@@ -14,5 +14,18 @@ public class Casting {
         double a = 1.1;
         double b = a + 2; // 2 converted under the hood to 2.0 first
         System.out.println(b);
+
+        //explicit casting
+        double c = 1.1;
+        int d = (int)c + 2;
+        System.out.println(d);
+
+        //parsing
+        String s = "1";
+        int f = Integer.parseInt(s) + 2;
+//        Short.parseShort(s);
+//        Float.parseFloat(s);
+//        Double.parseDouble(s);
+        System.out.println(d);
     }
 }
