@@ -1,11 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="087154aa-323b-49ae-a7be-718c32ee6b39" name="Default Changelist" comment="Initial progress update.">
-      <change afterPath="$PROJECT_DIR$/src/com/belsoft/PrimitiveTypesVsReferenceTypes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/belsoft/Variables.java" afterDir="false" />
+    <list default="true" id="087154aa-323b-49ae-a7be-718c32ee6b39" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/5/25c66f10aa7e253d4f990962548a707892bf1025" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/7/c70c89cae1cfea6a453c577a7a52bcbbafa53f99" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/belsoft/ArithmeticExpressions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/belsoft/ArraysInJava.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/belsoft/Casting.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/belsoft/Constants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/belsoft/MultiDimensionalArrays.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/belsoft/Strings.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/belsoft/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/belsoft/PrimitiveTypesVsReferenceTypes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/belsoft/PrimitiveTypesVsReferenceTypes.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,22 +39,13 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../HelloWorld" />
   </component>
-  <component name="RunManager" selected="Application.PrimitiveTypesVsReferenceTypes">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.belsoft.Main" />
-      <module name="JavaStandardTraining" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PrimitiveTypesVsReferenceTypes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.belsoft.PrimitiveTypesVsReferenceTypes" />
+  <component name="RunManager" selected="Application.Casting">
+    <configuration name="ArithmeticExpressions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.belsoft.ArithmeticExpressions" />
       <module name="JavaStandardTraining" />
       <extension name="coverage">
         <pattern>
@@ -58,8 +57,47 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Variables" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.belsoft.Variables" />
+    <configuration name="ArraysInJava" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.belsoft.ArraysInJava" />
+      <module name="JavaStandardTraining" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.belsoft.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Casting" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.belsoft.Casting" />
+      <module name="JavaStandardTraining" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.belsoft.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MultiDimensionalArrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.belsoft.MultiDimensionalArrays" />
+      <module name="JavaStandardTraining" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.belsoft.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderOfOperations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.belsoft.OrderOfOperations" />
       <module name="JavaStandardTraining" />
       <extension name="coverage">
         <pattern>
@@ -72,14 +110,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Main" />
-      <item itemvalue="Application.Variables" />
-      <item itemvalue="Application.PrimitiveTypesVsReferenceTypes" />
+      <item itemvalue="Application.ArraysInJava" />
+      <item itemvalue="Application.MultiDimensionalArrays" />
+      <item itemvalue="Application.ArithmeticExpressions" />
+      <item itemvalue="Application.OrderOfOperations" />
+      <item itemvalue="Application.Casting" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.PrimitiveTypesVsReferenceTypes" />
-        <item itemvalue="Application.Variables" />
+        <item itemvalue="Application.Casting" />
+        <item itemvalue="Application.OrderOfOperations" />
+        <item itemvalue="Application.ArithmeticExpressions" />
+        <item itemvalue="Application.MultiDimensionalArrays" />
+        <item itemvalue="Application.ArraysInJava" />
       </list>
     </recent_temporary>
   </component>
@@ -94,6 +137,14 @@
       <option name="presentableId" value="Default" />
       <updated>1593079705842</updated>
     </task>
+    <task id="LOCAL-00001" summary="Initial progress update.">
+      <created>1593080343104</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1593080343104</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -101,10 +152,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="Initial progress update." />
   </component>
   <component name="WindowStateProjectService">
-    <state x="0" y="0" width="1915" height="1040" key="CommitChangelistDialog2" timestamp="1593080264184">
+    <state x="0" y="0" width="1915" height="1040" key="CommitChangelistDialog2" timestamp="1593080343008">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="0" y="0" width="1915" height="1040" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1593080264184" />
+    <state x="0" y="0" width="1915" height="1040" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1593080343008" />
     <state x="690" y="220" width="530" height="598" key="FileChooserDialogImpl" timestamp="1593079836700">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -117,21 +168,45 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="624" y="158" width="662" height="722" key="Github.UntrackedFilesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1593079771061" />
-    <state width="1864" height="259" key="GridCell.Tab.0.bottom" timestamp="1593080264203">
+    <state width="1864" height="259" key="GridCell.Tab.0.bottom" timestamp="1593589507399">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1864" height="259" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1593080264203" />
-    <state width="1864" height="259" key="GridCell.Tab.0.center" timestamp="1593080264203">
+    <state width="1864" height="259" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1593589507399" />
+    <state width="1864" height="259" key="GridCell.Tab.0.center" timestamp="1593589507398">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1864" height="259" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1593080264203" />
-    <state width="1864" height="259" key="GridCell.Tab.0.left" timestamp="1593080264203">
+    <state width="1864" height="259" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1593589507398" />
+    <state width="1864" height="259" key="GridCell.Tab.0.left" timestamp="1593589507398">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1864" height="259" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1593080264203" />
-    <state width="1864" height="259" key="GridCell.Tab.0.right" timestamp="1593080264203">
+    <state width="1864" height="259" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1593589507398" />
+    <state width="1864" height="259" key="GridCell.Tab.0.right" timestamp="1593589507399">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1864" height="259" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1593080264203" />
+    <state width="1864" height="259" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1593589507399" />
+    <state width="1864" height="322" key="GridCell.Tab.1.bottom" timestamp="1593549189790">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1864" height="322" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1593549189790" />
+    <state width="1864" height="322" key="GridCell.Tab.1.center" timestamp="1593549189790">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1864" height="322" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1593549189790" />
+    <state width="1864" height="322" key="GridCell.Tab.1.left" timestamp="1593549189790">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1864" height="322" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1593549189790" />
+    <state width="1864" height="322" key="GridCell.Tab.1.right" timestamp="1593549189790">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1864" height="322" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1593549189790" />
+    <state x="455" y="192" width="1000" height="654" key="Vcs.Push.Dialog.v2" timestamp="1593080352590">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="455" y="192" width="1000" height="654" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1593080352590" />
+    <state x="539" y="5" width="840" height="1034" key="search.everywhere.popup" timestamp="1593535470733">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="539" y="5" width="840" height="1034" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1593535470733" />
   </component>
 </project>
