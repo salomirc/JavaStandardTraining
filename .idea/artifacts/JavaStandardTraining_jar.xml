@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="JavaStandardTraining:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/JavaStandardTraining_jar</output-path>
+    <root id="archive" name="JavaStandardTraining.jar">
+      <element id="module-output" name="JavaStandardTraining" />
+    </root>
+  </artifact>
+</component>
