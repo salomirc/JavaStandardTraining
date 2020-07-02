@@ -2,19 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="087154aa-323b-49ae-a7be-718c32ee6b39" name="Default Changelist" comment="Java Types part II">
-      <change afterPath="$PROJECT_DIR$/src/com/belsoft/types/project/ProjectMortgageCalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/belsoft/controlflow/project/MortgageCalculatorInputValidation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/belsoft/ArithmeticExpressions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/belsoft/types/ArithmeticExpressions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/belsoft/ArraysInJava.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/belsoft/types/ArraysInJava.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/belsoft/Casting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/belsoft/types/Casting.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/belsoft/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/belsoft/types/Constants.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/belsoft/FormattingNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/belsoft/types/FormattingNumbers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/belsoft/MultiDimensionalArrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/belsoft/types/MultiDimensionalArrays.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/belsoft/PrimitiveTypesVsReferenceTypes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/belsoft/types/PrimitiveTypesVsReferenceTypes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/belsoft/ReadingInput.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/belsoft/types/ReadingInput.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/belsoft/Strings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/belsoft/types/Strings.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/belsoft/TheMathClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/belsoft/types/TheMathClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/belsoft/Variables.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/belsoft/types/Variables.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,7 +20,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="ProjectMortgageCalculator" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -49,7 +38,7 @@
     <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../HelloWorld" />
   </component>
-  <component name="RunManager" selected="Application.ProjectMortgageCalculator">
+  <component name="RunManager" selected="Application.MortgageCalculatorInputValidation">
     <configuration name="ArithmeticExpressions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.belsoft.types.ArithmeticExpressions" />
       <module name="JavaStandardTraining" />
@@ -69,6 +58,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.belsoft.types.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MortgageCalculatorInputValidation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.belsoft.controlflow.project.MortgageCalculatorInputValidation" />
+      <module name="JavaStandardTraining" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.belsoft.controlflow.project.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -102,30 +104,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TheMathClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.belsoft.types.TheMathClass" />
-      <module name="JavaStandardTraining" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.belsoft.types.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="Application.TheMathClass" />
       <item itemvalue="Application.FormattingNumbers" />
       <item itemvalue="Application.ReadingInput" />
       <item itemvalue="Application.ArithmeticExpressions" />
       <item itemvalue="Application.ProjectMortgageCalculator" />
+      <item itemvalue="Application.MortgageCalculatorInputValidation" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MortgageCalculatorInputValidation" />
         <item itemvalue="Application.ProjectMortgageCalculator" />
-        <item itemvalue="Application.TheMathClass" />
         <item itemvalue="Application.ArithmeticExpressions" />
         <item itemvalue="Application.ReadingInput" />
         <item itemvalue="Application.FormattingNumbers" />
@@ -182,6 +171,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="Java Types part II" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="627" y="220" width="655" height="598" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1593691072047">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="627" y="220" width="655" height="598" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1593691072047" />
     <state x="0" y="0" width="1915" height="1040" key="CommitChangelistDialog2" timestamp="1593626547676">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -198,22 +191,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="624" y="158" width="662" height="722" key="Github.UntrackedFilesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1593079771061" />
-    <state width="1864" height="259" key="GridCell.Tab.0.bottom" timestamp="1593626265659">
+    <state width="1864" height="259" key="GridCell.Tab.0.bottom" timestamp="1593693032070">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1864" height="259" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1593626265659" />
-    <state width="1864" height="259" key="GridCell.Tab.0.center" timestamp="1593626265659">
+    <state width="1864" height="259" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1593693032070" />
+    <state width="1864" height="259" key="GridCell.Tab.0.center" timestamp="1593693032066">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1864" height="259" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1593626265659" />
-    <state width="1864" height="259" key="GridCell.Tab.0.left" timestamp="1593626265659">
+    <state width="1864" height="259" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1593693032066" />
+    <state width="1864" height="259" key="GridCell.Tab.0.left" timestamp="1593693032064">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1864" height="259" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1593626265659" />
-    <state width="1864" height="259" key="GridCell.Tab.0.right" timestamp="1593626265659">
+    <state width="1864" height="259" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1593693032064" />
+    <state width="1864" height="259" key="GridCell.Tab.0.right" timestamp="1593693032068">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1864" height="259" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1593626265659" />
+    <state width="1864" height="259" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1593693032068" />
     <state width="1864" height="322" key="GridCell.Tab.1.bottom" timestamp="1593549189790">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -230,10 +223,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1864" height="322" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1593549189790" />
-    <state x="455" y="192" width="1000" height="654" key="Vcs.Push.Dialog.v2" timestamp="1593614512155">
+    <state x="455" y="192" width="1000" height="654" key="Vcs.Push.Dialog.v2" timestamp="1593626933196">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="455" y="192" width="1000" height="654" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1593614512155" />
+    <state x="455" y="192" width="1000" height="654" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1593626933196" />
     <state x="540" y="233" key="run.anything.popup" timestamp="1593601901629">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
