@@ -6,7 +6,10 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="087154aa-323b-49ae-a7be-718c32ee6b39" name="Default Changelist" comment="Java Types part II" />
+    <list default="true" id="087154aa-323b-49ae-a7be-718c32ee6b39" name="Default Changelist" comment="workspace update">
+      <change afterPath="$PROJECT_DIR$/src/com/belsoft/controlflow/project/MortgageCalcMethodRefactoring.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -38,12 +41,13 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
+    <property name="extract.method.default.visibility" value="private" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../HelloWorld" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
-  <component name="RunManager" selected="Application.MortgageCalculatorInputValidation">
+  <component name="RunManager" selected="Application.MortgageCalcMethodRefactoring">
     <configuration name="ArithmeticExpressions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.belsoft.types.ArithmeticExpressions" />
       <module name="JavaStandardTraining" />
@@ -57,12 +61,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FormattingNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.belsoft.types.FormattingNumbers" />
+    <configuration name="MortgageCalcMethodRefactoring" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.belsoft.controlflow.project.MortgageCalcMethodRefactoring" />
       <module name="JavaStandardTraining" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.belsoft.types.*" />
+          <option name="PATTERN" value="com.belsoft.controlflow.project.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -110,19 +114,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.FormattingNumbers" />
       <item itemvalue="Application.ReadingInput" />
       <item itemvalue="Application.ArithmeticExpressions" />
       <item itemvalue="Application.ProjectMortgageCalculator" />
       <item itemvalue="Application.MortgageCalculatorInputValidation" />
+      <item itemvalue="Application.MortgageCalcMethodRefactoring" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MortgageCalcMethodRefactoring" />
         <item itemvalue="Application.MortgageCalculatorInputValidation" />
         <item itemvalue="Application.ProjectMortgageCalculator" />
         <item itemvalue="Application.ArithmeticExpressions" />
         <item itemvalue="Application.ReadingInput" />
-        <item itemvalue="Application.FormattingNumbers" />
       </list>
     </recent_temporary>
   </component>
@@ -172,7 +176,14 @@
       <option name="project" value="LOCAL" />
       <updated>1593693706554</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="workspace update">
+      <created>1593706702753</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1593706702753</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -192,10 +203,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="622" y="265" width="656" height="510" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1593706307433" />
-    <state x="0" y="0" width="1915" height="1040" key="CommitChangelistDialog2" timestamp="1593626547676">
+    <state x="0" y="0" width="1915" height="1040" key="CommitChangelistDialog2" timestamp="1593706710829">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="0" y="0" width="1915" height="1040" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1593626547676" />
+    <state x="0" y="0" width="1915" height="1040" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1593706710829" />
     <state x="690" y="220" width="530" height="598" key="FileChooserDialogImpl" timestamp="1593079836700">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -208,54 +219,54 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="624" y="158" width="662" height="722" key="Github.UntrackedFilesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1593079771061" />
-    <state width="1864" height="425" key="GridCell.Tab.0.bottom" timestamp="1593704789100">
+    <state width="1864" height="239" key="GridCell.Tab.0.bottom" timestamp="1593768448611">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1864" height="425" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1593704789100" />
-    <state width="1864" height="425" key="GridCell.Tab.0.center" timestamp="1593704789097">
+    <state width="1864" height="239" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1593768448611" />
+    <state width="1864" height="239" key="GridCell.Tab.0.center" timestamp="1593768448607">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1864" height="425" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1593704789097" />
-    <state width="1864" height="425" key="GridCell.Tab.0.left" timestamp="1593704789094">
+    <state width="1864" height="239" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1593768448607" />
+    <state width="1864" height="239" key="GridCell.Tab.0.left" timestamp="1593768448605">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1864" height="425" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1593704789094" />
-    <state width="1864" height="425" key="GridCell.Tab.0.right" timestamp="1593704789098">
+    <state width="1864" height="239" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1593768448605" />
+    <state width="1864" height="239" key="GridCell.Tab.0.right" timestamp="1593768448609">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1864" height="425" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1593704789098" />
-    <state width="1864" height="425" key="GridCell.Tab.1.bottom" timestamp="1593704789107">
+    <state width="1864" height="239" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1593768448609" />
+    <state width="1864" height="425" key="GridCell.Tab.1.bottom" timestamp="1593707439088">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1864" height="425" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1593704789107" />
-    <state width="1864" height="425" key="GridCell.Tab.1.center" timestamp="1593704789104">
+    <state width="1864" height="425" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1593707439088" />
+    <state width="1864" height="425" key="GridCell.Tab.1.center" timestamp="1593707439087">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1864" height="425" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1593704789104" />
-    <state width="1864" height="425" key="GridCell.Tab.1.left" timestamp="1593704789102">
+    <state width="1864" height="425" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1593707439087" />
+    <state width="1864" height="425" key="GridCell.Tab.1.left" timestamp="1593707439087">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1864" height="425" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1593704789102" />
-    <state width="1864" height="425" key="GridCell.Tab.1.right" timestamp="1593704789106">
+    <state width="1864" height="425" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1593707439087" />
+    <state width="1864" height="425" key="GridCell.Tab.1.right" timestamp="1593707439087">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1864" height="425" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1593704789106" />
+    <state width="1864" height="425" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1593707439087" />
     <state x="315" y="0" width="1280" height="1040" key="SettingsEditor" timestamp="1593706312669">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="315" y="0" width="1280" height="1040" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1593706312669" />
-    <state x="455" y="192" width="1000" height="654" key="Vcs.Push.Dialog.v2" timestamp="1593693884929">
+    <state x="455" y="192" width="1000" height="654" key="Vcs.Push.Dialog.v2" timestamp="1593706747419">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="455" y="192" width="1000" height="654" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1593693884929" />
+    <state x="455" y="192" width="1000" height="654" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1593706747419" />
     <state x="329" y="197" width="1251" height="643" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1593703815732">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="329" y="197" width="1251" height="643" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1920.1040@0.0.1920.1040" timestamp="1593703815732" />
-    <state x="627" y="217" width="904" height="690" key="extract.method.dialog" timestamp="1593698432367">
+    <state x="627" y="217" width="904" height="690" key="extract.method.dialog" timestamp="1593768619098">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="627" y="217" width="904" height="690" key="extract.method.dialog/0.0.1920.1040@0.0.1920.1040" timestamp="1593698432367" />
+    <state x="627" y="217" width="904" height="690" key="extract.method.dialog/0.0.1920.1040@0.0.1920.1040" timestamp="1593768619098" />
     <state x="540" y="233" key="run.anything.popup" timestamp="1593601901629">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
