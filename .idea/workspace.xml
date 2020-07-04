@@ -6,9 +6,11 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="087154aa-323b-49ae-a7be-718c32ee6b39" name="Default Changelist" comment="Mortgage Calc Method Refactoring">
-      <change afterPath="$PROJECT_DIR$/src/com/belsoft/classes/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/belsoft/classes/Main.java" afterDir="false" />
+    <list default="true" id="087154aa-323b-49ae-a7be-718c32ee6b39" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/belsoft/refactoring_ood/Console.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/belsoft/refactoring_ood/MortgageCalcOODRefactoring.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/belsoft/refactoring_ood/MortgageCalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/belsoft/refactoring_ood/MortgageReport.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -48,20 +50,18 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration name="ArithmeticExpressions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.belsoft.types.ArithmeticExpressions" />
-      <module name="JavaStandardTraining" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.belsoft.types.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RecentsManager">
+    <key name="MoveMembersDialog.RECENTS_KEY">
+      <recent name="com.belsoft.refactoring_ood.MortgageCalcOODRefactoring" />
+      <recent name="com.belsoft.refactoring_ood.MortgageCalculator" />
+      <recent name="com.belsoft.refactoring_ood.MortgageReport" />
+      <recent name="com.belsoft.refactoring_ood.Console" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.belsoft.refactoring_ood" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.MortgageCalcOODRefactoring">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.belsoft.classes.Main" />
       <module name="JavaStandardTraining" />
@@ -81,6 +81,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.belsoft.controlflow.project.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MortgageCalcOODRefactoring" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.belsoft.refactoring_ood.MortgageCalcOODRefactoring" />
+      <module name="JavaStandardTraining" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.belsoft.refactoring_ood.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -115,19 +128,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.ArithmeticExpressions" />
       <item itemvalue="Application.ProjectMortgageCalculator" />
       <item itemvalue="Application.MortgageCalculatorInputValidation" />
       <item itemvalue="Application.MortgageCalcMethodRefactoring" />
       <item itemvalue="Application.Main" />
+      <item itemvalue="Application.MortgageCalcOODRefactoring" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MortgageCalcOODRefactoring" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.MortgageCalcMethodRefactoring" />
         <item itemvalue="Application.MortgageCalculatorInputValidation" />
         <item itemvalue="Application.ProjectMortgageCalculator" />
-        <item itemvalue="Application.ArithmeticExpressions" />
       </list>
     </recent_temporary>
   </component>
@@ -191,7 +204,14 @@
       <option name="project" value="LOCAL" />
       <updated>1593768743029</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Java class OOP 1/4">
+      <created>1593808148766</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1593808148766</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -201,25 +221,38 @@
     <MESSAGE value="Java Types part II" />
     <MESSAGE value="workspace update" />
     <MESSAGE value="Mortgage Calc Method Refactoring" />
-    <option name="LAST_COMMIT_MESSAGE" value="Mortgage Calc Method Refactoring" />
+    <MESSAGE value="Java class OOP 1/4" />
+    <option name="LAST_COMMIT_MESSAGE" value="Java class OOP 1/4" />
   </component>
   <component name="WindowStateProjectService">
     <state x="627" y="220" width="655" height="598" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1593691072047">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="627" y="220" width="655" height="598" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1593691072047" />
-    <state x="721" y="130" width="468" height="777" key="#com.intellij.ide.util.MemberChooser" timestamp="1593786118841">
+    <state x="721" y="130" width="468" height="777" key="#com.intellij.ide.util.MemberChooser" timestamp="1593854687348">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="721" y="130" width="468" height="777" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1593786118841" />
-    <state x="622" y="265" width="656" height="510" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1593706307433">
+    <state x="721" y="130" width="468" height="777" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1593854687348" />
+    <state x="622" y="265" width="656" height="510" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1593850247003">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="622" y="265" width="656" height="510" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1593706307433" />
-    <state x="0" y="0" width="1915" height="1040" key="CommitChangelistDialog2" timestamp="1593768759671">
+    <state x="622" y="265" width="656" height="510" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1593850247003" />
+    <state x="667" y="396" width="585" height="256" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1593850206616">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="0" y="0" width="1915" height="1040" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1593768759671" />
+    <state x="667" y="396" width="585" height="256" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1920.1040@0.0.1920.1040" timestamp="1593850206616" />
+    <state x="747" y="261" width="720" height="565" key="#com.intellij.refactoring.move.moveMembers.MoveMembersDialog" timestamp="1593850256571">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="747" y="261" width="720" height="565" key="#com.intellij.refactoring.move.moveMembers.MoveMembersDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1593850256571" />
+    <state x="627" y="209" width="655" height="619" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1593847929934">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="627" y="209" width="655" height="619" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1593847929934" />
+    <state x="0" y="0" width="1915" height="1040" key="CommitChangelistDialog2" timestamp="1593808148723">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="0" y="0" width="1915" height="1040" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1593808148723" />
     <state x="690" y="220" width="530" height="598" key="FileChooserDialogImpl" timestamp="1593079836700">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -232,22 +265,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="624" y="158" width="662" height="722" key="Github.UntrackedFilesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1593079771061" />
-    <state width="1864" height="278" key="GridCell.Tab.0.bottom" timestamp="1593806739587">
+    <state width="1864" height="224" key="GridCell.Tab.0.bottom" timestamp="1593855224027">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1864" height="278" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1593806739587" />
-    <state width="1864" height="278" key="GridCell.Tab.0.center" timestamp="1593806739586">
+    <state width="1864" height="224" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1593855224027" />
+    <state width="1864" height="224" key="GridCell.Tab.0.center" timestamp="1593855224024">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1864" height="278" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1593806739586" />
-    <state width="1864" height="278" key="GridCell.Tab.0.left" timestamp="1593806739586">
+    <state width="1864" height="224" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1593855224024" />
+    <state width="1864" height="224" key="GridCell.Tab.0.left" timestamp="1593855224022">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1864" height="278" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1593806739586" />
-    <state width="1864" height="278" key="GridCell.Tab.0.right" timestamp="1593806739587">
+    <state width="1864" height="224" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1593855224022" />
+    <state width="1864" height="224" key="GridCell.Tab.0.right" timestamp="1593855224025">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1864" height="278" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1593806739587" />
+    <state width="1864" height="224" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1593855224025" />
     <state width="1864" height="425" key="GridCell.Tab.1.bottom" timestamp="1593707439088">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -264,22 +297,30 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1864" height="425" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1593707439087" />
+    <state x="728" y="449" width="463" height="140" key="ReplaceDuplicatesPrompt" timestamp="1593858409081">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="728" y="449" width="463" height="140" key="ReplaceDuplicatesPrompt/0.0.1920.1040@0.0.1920.1040" timestamp="1593858409081" />
     <state x="315" y="0" width="1280" height="1040" key="SettingsEditor" timestamp="1593706312669">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="315" y="0" width="1280" height="1040" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1593706312669" />
-    <state x="455" y="192" width="1000" height="654" key="Vcs.Push.Dialog.v2" timestamp="1593768779360">
+    <state x="455" y="192" width="1000" height="654" key="Vcs.Push.Dialog.v2" timestamp="1593808164091">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="455" y="192" width="1000" height="654" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1593768779360" />
+    <state x="455" y="192" width="1000" height="654" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1593808164091" />
     <state x="329" y="197" width="1251" height="643" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1593703815732">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="329" y="197" width="1251" height="643" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1920.1040@0.0.1920.1040" timestamp="1593703815732" />
-    <state x="627" y="217" width="904" height="690" key="extract.method.dialog" timestamp="1593768619098">
+    <state x="627" y="217" width="904" height="690" key="extract.method.dialog" timestamp="1593860367707">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="627" y="217" width="904" height="690" key="extract.method.dialog/0.0.1920.1040@0.0.1920.1040" timestamp="1593768619098" />
+    <state x="627" y="217" width="904" height="690" key="extract.method.dialog/0.0.1920.1040@0.0.1920.1040" timestamp="1593860367707" />
+    <state x="638" y="223" width="634" height="592" key="refactoring.ChangeSignatureDialog" timestamp="1593857674988">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="638" y="223" width="634" height="592" key="refactoring.ChangeSignatureDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1593857674988" />
     <state x="540" y="233" key="run.anything.popup" timestamp="1593785088332">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
