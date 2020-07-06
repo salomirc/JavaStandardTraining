@@ -6,11 +6,20 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="087154aa-323b-49ae-a7be-718c32ee6b39" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/belsoft/refactoring_ood/Console.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/belsoft/refactoring_ood/MortgageCalcOODRefactoring.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/belsoft/refactoring_ood/MortgageCalculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/belsoft/refactoring_ood/MortgageReport.java" afterDir="false" />
+    <list default="true" id="087154aa-323b-49ae-a7be-718c32ee6b39" name="Default Changelist" comment="Java Object Oriented Design refactoring, OOP 2/4">
+      <change afterPath="$PROJECT_DIR$/src/com/belsoft/inheritance/AccessModifiers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/belsoft/inheritance/ComparingObjects.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/belsoft/inheritance/Constructors.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/belsoft/inheritance/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/belsoft/inheritance/MethodOverloading.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/belsoft/inheritance/Point.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/belsoft/inheritance/TextBox.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/belsoft/inheritance/UIControl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/belsoft/inheritance/UpcastingAndDowncasting.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/belsoft/polymorphism/CheckBox.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/belsoft/polymorphism/Polymorphism.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/belsoft/polymorphism/TextBox.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/belsoft/polymorphism/UIControl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -61,13 +70,13 @@
       <recent name="com.belsoft.refactoring_ood" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MortgageCalcOODRefactoring">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.belsoft.classes.Main" />
+  <component name="RunManager" selected="Application.Polymorphism">
+    <configuration name="ComparingObjects" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.belsoft.inheritance.ComparingObjects" />
       <module name="JavaStandardTraining" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.belsoft.classes.*" />
+          <option name="PATTERN" value="com.belsoft.inheritance.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -75,12 +84,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MortgageCalcMethodRefactoring" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.belsoft.controlflow.project.MortgageCalcMethodRefactoring" />
+    <configuration name="Constructors" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.belsoft.inheritance.Constructors" />
       <module name="JavaStandardTraining" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.belsoft.controlflow.project.*" />
+          <option name="PATTERN" value="com.belsoft.inheritance.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -88,12 +97,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MortgageCalcOODRefactoring" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.belsoft.refactoring_ood.MortgageCalcOODRefactoring" />
+    <configuration name="MethodOverloading" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.belsoft.inheritance.MethodOverloading" />
       <module name="JavaStandardTraining" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.belsoft.refactoring_ood.*" />
+          <option name="PATTERN" value="com.belsoft.inheritance.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -101,12 +110,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MortgageCalculatorInputValidation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.belsoft.controlflow.project.MortgageCalculatorInputValidation" />
+    <configuration name="Polymorphism" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.belsoft.polymorphism.Polymorphism" />
       <module name="JavaStandardTraining" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.belsoft.controlflow.project.*" />
+          <option name="PATTERN" value="com.belsoft.polymorphism.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -114,12 +123,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProjectMortgageCalculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.belsoft.types.project.ProjectMortgageCalculator" />
+    <configuration name="UpcastingAndDowncasting" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.belsoft.inheritance.UpcastingAndDowncasting" />
       <module name="JavaStandardTraining" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.belsoft.types.project.*" />
+          <option name="PATTERN" value="com.belsoft.inheritance.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -128,19 +137,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.ProjectMortgageCalculator" />
-      <item itemvalue="Application.MortgageCalculatorInputValidation" />
-      <item itemvalue="Application.MortgageCalcMethodRefactoring" />
-      <item itemvalue="Application.Main" />
-      <item itemvalue="Application.MortgageCalcOODRefactoring" />
+      <item itemvalue="Application.Constructors" />
+      <item itemvalue="Application.MethodOverloading" />
+      <item itemvalue="Application.UpcastingAndDowncasting" />
+      <item itemvalue="Application.ComparingObjects" />
+      <item itemvalue="Application.Polymorphism" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MortgageCalcOODRefactoring" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.MortgageCalcMethodRefactoring" />
-        <item itemvalue="Application.MortgageCalculatorInputValidation" />
-        <item itemvalue="Application.ProjectMortgageCalculator" />
+        <item itemvalue="Application.Polymorphism" />
+        <item itemvalue="Application.ComparingObjects" />
+        <item itemvalue="Application.UpcastingAndDowncasting" />
+        <item itemvalue="Application.MethodOverloading" />
+        <item itemvalue="Application.Constructors" />
       </list>
     </recent_temporary>
   </component>
@@ -211,7 +220,14 @@
       <option name="project" value="LOCAL" />
       <updated>1593808148766</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Java Object Oriented Design refactoring, OOP 2/4">
+      <created>1593860930707</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1593860930707</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -222,17 +238,18 @@
     <MESSAGE value="workspace update" />
     <MESSAGE value="Mortgage Calc Method Refactoring" />
     <MESSAGE value="Java class OOP 1/4" />
-    <option name="LAST_COMMIT_MESSAGE" value="Java class OOP 1/4" />
+    <MESSAGE value="Java Object Oriented Design refactoring, OOP 2/4" />
+    <option name="LAST_COMMIT_MESSAGE" value="Java Object Oriented Design refactoring, OOP 2/4" />
   </component>
   <component name="WindowStateProjectService">
     <state x="627" y="220" width="655" height="598" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1593691072047">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="627" y="220" width="655" height="598" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1593691072047" />
-    <state x="721" y="130" width="468" height="777" key="#com.intellij.ide.util.MemberChooser" timestamp="1593854687348">
+    <state x="721" y="130" width="468" height="777" key="#com.intellij.ide.util.MemberChooser" timestamp="1594048426789">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="721" y="130" width="468" height="777" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1593854687348" />
+    <state x="721" y="130" width="468" height="777" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1594048426789" />
     <state x="622" y="265" width="656" height="510" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1593850247003">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -249,10 +266,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="627" y="209" width="655" height="619" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1593847929934" />
-    <state x="0" y="0" width="1915" height="1040" key="CommitChangelistDialog2" timestamp="1593808148723">
+    <state x="0" y="0" width="1915" height="1040" key="CommitChangelistDialog2" timestamp="1593979505905">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="0" y="0" width="1915" height="1040" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1593808148723" />
+    <state x="0" y="0" width="1915" height="1040" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1593979505905" />
     <state x="690" y="220" width="530" height="598" key="FileChooserDialogImpl" timestamp="1593079836700">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -265,38 +282,38 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="624" y="158" width="662" height="722" key="Github.UntrackedFilesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1593079771061" />
-    <state width="1864" height="224" key="GridCell.Tab.0.bottom" timestamp="1593855224027">
+    <state width="1864" height="285" key="GridCell.Tab.0.bottom" timestamp="1594047540750">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1864" height="224" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1593855224027" />
-    <state width="1864" height="224" key="GridCell.Tab.0.center" timestamp="1593855224024">
+    <state width="1864" height="285" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1594047540750" />
+    <state width="1864" height="285" key="GridCell.Tab.0.center" timestamp="1594047540749">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1864" height="224" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1593855224024" />
-    <state width="1864" height="224" key="GridCell.Tab.0.left" timestamp="1593855224022">
+    <state width="1864" height="285" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1594047540749" />
+    <state width="1864" height="285" key="GridCell.Tab.0.left" timestamp="1594047540749">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1864" height="224" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1593855224022" />
-    <state width="1864" height="224" key="GridCell.Tab.0.right" timestamp="1593855224025">
+    <state width="1864" height="285" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1594047540749" />
+    <state width="1864" height="285" key="GridCell.Tab.0.right" timestamp="1594047540749">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1864" height="224" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1593855224025" />
-    <state width="1864" height="425" key="GridCell.Tab.1.bottom" timestamp="1593707439088">
+    <state width="1864" height="285" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1594047540749" />
+    <state width="1864" height="425" key="GridCell.Tab.1.bottom" timestamp="1593888190181">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1864" height="425" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1593707439088" />
-    <state width="1864" height="425" key="GridCell.Tab.1.center" timestamp="1593707439087">
+    <state width="1864" height="425" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1593888190181" />
+    <state width="1864" height="425" key="GridCell.Tab.1.center" timestamp="1593888190181">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1864" height="425" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1593707439087" />
-    <state width="1864" height="425" key="GridCell.Tab.1.left" timestamp="1593707439087">
+    <state width="1864" height="425" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1593888190181" />
+    <state width="1864" height="425" key="GridCell.Tab.1.left" timestamp="1593888190181">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1864" height="425" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1593707439087" />
-    <state width="1864" height="425" key="GridCell.Tab.1.right" timestamp="1593707439087">
+    <state width="1864" height="425" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1593888190181" />
+    <state width="1864" height="425" key="GridCell.Tab.1.right" timestamp="1593888190181">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1864" height="425" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1593707439087" />
+    <state width="1864" height="425" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1593888190181" />
     <state x="728" y="449" width="463" height="140" key="ReplaceDuplicatesPrompt" timestamp="1593858409081">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -305,10 +322,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="315" y="0" width="1280" height="1040" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1593706312669" />
-    <state x="455" y="192" width="1000" height="654" key="Vcs.Push.Dialog.v2" timestamp="1593808164091">
+    <state x="455" y="192" width="1000" height="654" key="Vcs.Push.Dialog.v2" timestamp="1593860943048">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="455" y="192" width="1000" height="654" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1593808164091" />
+    <state x="455" y="192" width="1000" height="654" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1593860943048" />
     <state x="329" y="197" width="1251" height="643" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1593703815732">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -325,10 +342,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="540" y="233" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1593785088332" />
-    <state x="539" y="5" width="840" height="1034" key="search.everywhere.popup" timestamp="1593613257733">
+    <state x="539" y="5" width="840" height="1034" key="search.everywhere.popup" timestamp="1593874953385">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="539" y="5" width="840" height="1034" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1593613257733" />
+    <state x="539" y="5" width="840" height="1034" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1593874953385" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
