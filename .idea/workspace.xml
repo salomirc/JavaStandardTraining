@@ -7,19 +7,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="087154aa-323b-49ae-a7be-718c32ee6b39" name="Default Changelist" comment="Java Object Oriented Design refactoring, OOP 2/4">
-      <change afterPath="$PROJECT_DIR$/src/com/belsoft/inheritance/AccessModifiers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/belsoft/inheritance/ComparingObjects.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/belsoft/inheritance/Constructors.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/belsoft/inheritance/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/belsoft/inheritance/MethodOverloading.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/belsoft/inheritance/Point.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/belsoft/inheritance/TextBox.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/belsoft/inheritance/UIControl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/belsoft/inheritance/UpcastingAndDowncasting.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/belsoft/polymorphism/CheckBox.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/belsoft/polymorphism/Polymorphism.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/belsoft/polymorphism/TextBox.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/belsoft/polymorphism/UIControl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/belsoft/interfaces/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/belsoft/interfaces/TaxCalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/belsoft/interfaces/TaxCalculator2018.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/belsoft/interfaces/TaxCalculator2019.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/belsoft/interfaces/TaxCalculator2020.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/belsoft/interfaces/TaxReport.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/belsoft/interfaces/segregation/Draggable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/belsoft/interfaces/segregation/Dragger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/belsoft/interfaces/segregation/Resizable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/belsoft/interfaces/segregation/UIWidget.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -31,13 +28,14 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="ProjectMortgageCalculator" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -66,11 +64,14 @@
       <recent name="com.belsoft.refactoring_ood.MortgageReport" />
       <recent name="com.belsoft.refactoring_ood.Console" />
     </key>
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="com.belsoft.interfaces.segregation" />
+    </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.belsoft.refactoring_ood" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Polymorphism">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="ComparingObjects" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.belsoft.inheritance.ComparingObjects" />
       <module name="JavaStandardTraining" />
@@ -84,12 +85,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Constructors" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.belsoft.inheritance.Constructors" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.belsoft.interfaces.Main" />
       <module name="JavaStandardTraining" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.belsoft.inheritance.*" />
+          <option name="PATTERN" value="com.belsoft.interfaces.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -137,19 +138,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Constructors" />
       <item itemvalue="Application.MethodOverloading" />
       <item itemvalue="Application.UpcastingAndDowncasting" />
       <item itemvalue="Application.ComparingObjects" />
       <item itemvalue="Application.Polymorphism" />
+      <item itemvalue="Application.Main" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.Polymorphism" />
         <item itemvalue="Application.ComparingObjects" />
         <item itemvalue="Application.UpcastingAndDowncasting" />
         <item itemvalue="Application.MethodOverloading" />
-        <item itemvalue="Application.Constructors" />
       </list>
     </recent_temporary>
   </component>
@@ -246,10 +247,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="627" y="220" width="655" height="598" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1593691072047" />
-    <state x="721" y="130" width="468" height="777" key="#com.intellij.ide.util.MemberChooser" timestamp="1594048426789">
+    <state x="721" y="130" width="468" height="777" key="#com.intellij.ide.util.MemberChooser" timestamp="1594123857913">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="721" y="130" width="468" height="777" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1594048426789" />
+    <state x="721" y="130" width="468" height="777" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1594123857913" />
     <state x="622" y="265" width="656" height="510" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1593850247003">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -282,22 +283,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="624" y="158" width="662" height="722" key="Github.UntrackedFilesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1593079771061" />
-    <state width="1864" height="285" key="GridCell.Tab.0.bottom" timestamp="1594047540750">
+    <state width="1864" height="285" key="GridCell.Tab.0.bottom" timestamp="1594124214837">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1864" height="285" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1594047540750" />
-    <state width="1864" height="285" key="GridCell.Tab.0.center" timestamp="1594047540749">
+    <state width="1864" height="285" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1594124214837" />
+    <state width="1864" height="285" key="GridCell.Tab.0.center" timestamp="1594124214834">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1864" height="285" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1594047540749" />
-    <state width="1864" height="285" key="GridCell.Tab.0.left" timestamp="1594047540749">
+    <state width="1864" height="285" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1594124214834" />
+    <state width="1864" height="285" key="GridCell.Tab.0.left" timestamp="1594124214832">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1864" height="285" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1594047540749" />
-    <state width="1864" height="285" key="GridCell.Tab.0.right" timestamp="1594047540749">
+    <state width="1864" height="285" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1594124214832" />
+    <state width="1864" height="285" key="GridCell.Tab.0.right" timestamp="1594124214836">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1864" height="285" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1594047540749" />
+    <state width="1864" height="285" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1594124214836" />
     <state width="1864" height="425" key="GridCell.Tab.1.bottom" timestamp="1593888190181">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
