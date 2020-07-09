@@ -37,6 +37,11 @@ public class Strings {
 
         escapeMessage = "Hello\t\"Mosh\"";
         System.out.println(escapeMessage);
+
+
+        String greeting = "Howdy";
+        String person = "neighbor";
+        String location = "neighborhood";
     }
 }
 
