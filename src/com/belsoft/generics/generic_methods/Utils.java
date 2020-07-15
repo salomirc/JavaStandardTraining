@@ -27,7 +27,7 @@ public class Utils {
     // class CAP#1 extends User {}
     // class Instructor extends User {}
     public static void printUsers(GenericList<? extends User> users) {
-        User x = users.get(0);
+        User user = users.get(0);
 
         // error
         // with the "extends" can only read but can not write to this GenericList<? extends User>
@@ -46,7 +46,7 @@ public class Utils {
         // with the "super" can write but can not directly read this GenericList<? super User>
         // User x = users.get(0);
 
-        Object x = users.get(0);
-        User user = (User) users.get(0);
+        Object object = users.get(0);
+        User user = (User)users.get(0);
     }
 }
