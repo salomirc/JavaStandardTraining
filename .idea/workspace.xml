@@ -6,38 +6,12 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="087154aa-323b-49ae-a7be-718c32ee6b39" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/belsoft/streams/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/belsoft/streams/Movie.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/belsoft/streams/StreamDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/belsoft/streams/collectors/CollectorsDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/belsoft/streams/collectors/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/belsoft/streams/creating_streams/CreatingStreamsDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/belsoft/streams/creating_streams/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/belsoft/streams/filtering_elements/FilteringElementsDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/belsoft/streams/filtering_elements/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/belsoft/streams/getting_distinct_elements/DistinctElementsDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/belsoft/streams/getting_distinct_elements/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/belsoft/streams/grouping_elements/Genre.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/belsoft/streams/grouping_elements/GroupingElementsDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/belsoft/streams/grouping_elements/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/belsoft/streams/mapping_elements/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/belsoft/streams/mapping_elements/MappingElementsDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/belsoft/streams/partitioning_elements/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/belsoft/streams/partitioning_elements/PartitioningElementsDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/belsoft/streams/peeking_elements/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/belsoft/streams/peeking_elements/PeekingElementsDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/belsoft/streams/primitive_type_streams/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/belsoft/streams/primitive_type_streams/PrimitiveTypeStreamsDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/belsoft/streams/reducing_a_stream/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/belsoft/streams/reducing_a_stream/ReducingStreamDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/belsoft/streams/simple_reducers/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/belsoft/streams/simple_reducers/SimpleReducersDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/belsoft/streams/slicing_streams/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/belsoft/streams/slicing_streams/SlicingStreamsDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/belsoft/streams/sorting_streams/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/belsoft/streams/sorting_streams/SortingStreamsDemo.java" afterDir="false" />
+    <list default="true" id="087154aa-323b-49ae-a7be-718c32ee6b39" name="Default Changelist" comment="Streams in Java.">
+      <change afterPath="$PROJECT_DIR$/src/com/belsoft/generics/generic_methods/Dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/belsoft/generics/generic_methods/Pet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/belsoft/generics/generic_methods/Wildcards.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/belsoft/generics/generic_classes_inheritance/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/belsoft/generics/generic_classes_inheritance/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/belsoft/generics/generic_methods/Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/belsoft/generics/generic_methods/Utils.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -94,26 +68,13 @@
       <recent name="com.belsoft.refactoring_ood" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main (4)">
+  <component name="RunManager" selected="Application.Main (6)">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.belsoft.streams.grouping_elements.Main" />
       <module name="JavaStandardTraining" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.belsoft.streams.grouping_elements.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.belsoft.streams.reducing_a_stream.Main" />
-      <module name="JavaStandardTraining" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.belsoft.streams.reducing_a_stream.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -160,12 +121,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.belsoft.collections.iterable_interface.Main" />
+    <configuration name="Main (6)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.belsoft.generics.generic_classes_inheritance.Main" />
       <module name="JavaStandardTraining" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.belsoft.collections.iterable_interface.*" />
+          <option name="PATTERN" value="com.belsoft.generics.generic_classes_inheritance.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -174,19 +135,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Main (2)" />
       <item itemvalue="Application.Main (5)" />
       <item itemvalue="Application.Main (1)" />
       <item itemvalue="Application.Main (3)" />
       <item itemvalue="Application.Main (4)" />
+      <item itemvalue="Application.Main (6)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (6)" />
         <item itemvalue="Application.Main (4)" />
         <item itemvalue="Application.Main (3)" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main (5)" />
-        <item itemvalue="Application.Main (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -292,7 +253,14 @@
       <option name="project" value="LOCAL" />
       <updated>1594681551839</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Streams in Java.">
+      <created>1594827958681</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1594827958681</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -308,21 +276,22 @@
     <MESSAGE value="Exceptions in Java." />
     <MESSAGE value="Generics in Java." />
     <MESSAGE value="Lambda Expressions and Functional Interfaces in Java" />
-    <option name="LAST_COMMIT_MESSAGE" value="Lambda Expressions and Functional Interfaces in Java" />
+    <MESSAGE value="Streams in Java." />
+    <option name="LAST_COMMIT_MESSAGE" value="Streams in Java." />
   </component>
   <component name="WindowStateProjectService">
     <state x="627" y="220" width="655" height="598" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1593691072047">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="627" y="220" width="655" height="598" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1593691072047" />
-    <state x="618" y="303" width="674" height="431" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1594560700888">
+    <state x="618" y="303" width="802" height="431" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1594904703216">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="618" y="303" width="674" height="431" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1594560700888" />
-    <state x="721" y="130" width="468" height="777" key="#com.intellij.ide.util.MemberChooser" timestamp="1594809136520">
+    <state x="618" y="303" width="802" height="431" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1594904703216" />
+    <state x="721" y="130" width="468" height="777" key="#com.intellij.ide.util.MemberChooser" timestamp="1594901599719">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="721" y="130" width="468" height="777" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1594809136520" />
+    <state x="721" y="130" width="468" height="777" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1594901599719" />
     <state x="622" y="265" width="656" height="510" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1593850247003">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -343,10 +312,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="627" y="209" width="655" height="619" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1594555030240" />
-    <state x="0" y="0" width="1915" height="1040" key="CommitChangelistDialog2" timestamp="1594681551725">
+    <state x="0" y="0" width="1915" height="1040" key="CommitChangelistDialog2" timestamp="1594905512052">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="0" y="0" width="1915" height="1040" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1594681551725" />
+    <state x="0" y="0" width="1915" height="1040" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1594905512052" />
     <state x="690" y="220" width="530" height="598" key="FileChooserDialogImpl" timestamp="1593079836700">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -359,54 +328,58 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="624" y="158" width="662" height="722" key="Github.UntrackedFilesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1593079771061" />
-    <state width="1864" height="444" key="GridCell.Tab.0.bottom" timestamp="1594827366858">
+    <state width="1864" height="358" key="GridCell.Tab.0.bottom" timestamp="1594902387575">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1864" height="444" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1594827366858" />
-    <state width="1864" height="444" key="GridCell.Tab.0.center" timestamp="1594827366854">
+    <state width="1864" height="358" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1594902387575" />
+    <state width="1864" height="358" key="GridCell.Tab.0.center" timestamp="1594902387570">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1864" height="444" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1594827366854" />
-    <state width="1864" height="444" key="GridCell.Tab.0.left" timestamp="1594827366852">
+    <state width="1864" height="358" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1594902387570" />
+    <state width="1864" height="358" key="GridCell.Tab.0.left" timestamp="1594902387568">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1864" height="444" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1594827366852" />
-    <state width="1864" height="444" key="GridCell.Tab.0.right" timestamp="1594827366856">
+    <state width="1864" height="358" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1594902387568" />
+    <state width="1864" height="358" key="GridCell.Tab.0.right" timestamp="1594902387572">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1864" height="444" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1594827366856" />
-    <state width="1864" height="425" key="GridCell.Tab.1.bottom" timestamp="1594569544894">
+    <state width="1864" height="358" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1594902387572" />
+    <state width="1864" height="425" key="GridCell.Tab.1.bottom" timestamp="1594901177006">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1864" height="425" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1594569544894" />
-    <state width="1864" height="425" key="GridCell.Tab.1.center" timestamp="1594569544894">
+    <state width="1864" height="425" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1594901177006" />
+    <state width="1864" height="425" key="GridCell.Tab.1.center" timestamp="1594901177004">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1864" height="425" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1594569544894" />
-    <state width="1864" height="425" key="GridCell.Tab.1.left" timestamp="1594569544893">
+    <state width="1864" height="425" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1594901177004" />
+    <state width="1864" height="425" key="GridCell.Tab.1.left" timestamp="1594901177003">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1864" height="425" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1594569544893" />
-    <state width="1864" height="425" key="GridCell.Tab.1.right" timestamp="1594569544894">
+    <state width="1864" height="425" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1594901177003" />
+    <state width="1864" height="425" key="GridCell.Tab.1.right" timestamp="1594901177005">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1864" height="425" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1594569544894" />
+    <state width="1864" height="425" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1594901177005" />
     <state x="728" y="449" width="463" height="140" key="ReplaceDuplicatesPrompt" timestamp="1593858409081">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="728" y="449" width="463" height="140" key="ReplaceDuplicatesPrompt/0.0.1920.1040@0.0.1920.1040" timestamp="1593858409081" />
+    <state x="607" y="154" width="695" height="729" key="RollbackChangesDialog" timestamp="1594897395127">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="607" y="154" width="695" height="729" key="RollbackChangesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1594897395127" />
     <state x="315" y="0" width="1280" height="1040" key="SettingsEditor" timestamp="1593706312669">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="315" y="0" width="1280" height="1040" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1593706312669" />
-    <state x="455" y="192" width="1000" height="654" key="Vcs.Push.Dialog.v2" timestamp="1594681561745">
+    <state x="455" y="192" width="1000" height="654" key="Vcs.Push.Dialog.v2" timestamp="1594827970372">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="455" y="192" width="1000" height="654" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1594681561745" />
-    <state width="1065" height="1038" key="com.intellij.byteCodeViewer.ShowByteCodeAction" timestamp="1594225411524">
+    <state x="455" y="192" width="1000" height="654" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1594827970372" />
+    <state width="1065" height="1038" key="com.intellij.byteCodeViewer.ShowByteCodeAction" timestamp="1594902795215">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1065" height="1038" key="com.intellij.byteCodeViewer.ShowByteCodeAction/0.0.1920.1040@0.0.1920.1040" timestamp="1594225411524" />
+    <state width="1065" height="1038" key="com.intellij.byteCodeViewer.ShowByteCodeAction/0.0.1920.1040@0.0.1920.1040" timestamp="1594902795215" />
     <state x="329" y="197" width="1251" height="643" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1593703815732">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

@@ -1,10 +1,8 @@
 package com.belsoft.generics.generic_methods;
 
-import com.belsoft.generics.GenericList;
 import com.belsoft.generics.comparable_interface.User;
-import com.belsoft.generics.generic_classes_inheritance.Instructor;
 
-import java.util.Objects;
+import java.util.List;
 
 public class Utils {
 
@@ -24,29 +22,43 @@ public class Utils {
         System.out.println(user);
     }
 
-    // class CAP#1 extends User {}
-    // class Instructor extends User {}
-    public static void printUsers(GenericList<? extends User> users) {
-        User user = users.get(0);
+    // class CAP#1 extends Pet {}
+    // class Dog extends Pet {}
+    public static void printPets(List<? extends Pet> pets) {
 
+        // item is of type Pet
+        var item = pets.get(0);
+        Pet pet = pets.get(0);
+        System.out.println(pets);
+
+        // with the "extends" can only read but can not write to this List<? extends Pet>
+        // because we need a new instance of anonymous class "capture of ? extends Pet"
         // error
-        // with the "extends" can only read but can not write to this GenericList<? extends User>
-        // users.add(new User(10));
+        // Required type: capture of ? extends Pet
+        // Provided: Pet
+        // pets.add(new Pet("Name"));
     }
 
     // class CAP#1 extends Object {}
-    // in this example Object is the parent of User
-    // class Instructor extends User {}
-    public static void printUsersReadWrite(GenericList<? super User> users) {
+    // in this example Object is the parent of Pet
+    // class Dog extends Pet {}
+    public static void printPetsReadWrite(List<? super Pet> pets) {
 
-        users.add(new User(10));
-        users.add(new Instructor(10));
+        pets.add(new Pet("Name1"));
+        pets.add(new Dog("Bolt"));
+//        pets.add(new Object());
 
-        // error
-        // with the "super" can write but can not directly read this GenericList<? super User>
-        // User x = users.get(0);
 
-        Object object = users.get(0);
-        User user = (User)users.get(0);
+        // with the "super" can write but can not read this List<? super Pet>
+        // Pet pet = pets.get(0);
+
+        // item is of type Object
+        var item = pets.get(0);
+
+        Object object = pets.get(0);
+        System.out.println(pets);
+
+        // Unsafe cast !!!
+        //Pet pet = (Pet)pets.get(0);
     }
 }
