@@ -7,11 +7,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="087154aa-323b-49ae-a7be-718c32ee6b39" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/belsoft/project/CustomDictionary.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/belsoft/project/IpAddressValidator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/belsoft/project/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/belsoft/project/Port.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/belsoft/project/CustomDictionary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/belsoft/project/CustomDictionary.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/belsoft/project/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/belsoft/project/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/belsoft/project/Port.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/belsoft/project/Port.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,7 +30,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="DictionaryProject" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -231,7 +230,14 @@
       <option name="project" value="LOCAL" />
       <updated>1594905913509</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="CustomDictionary Project version I.">
+      <created>1595094470763</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1595094470763</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -249,7 +255,8 @@
     <MESSAGE value="Lambda Expressions and Functional Interfaces in Java" />
     <MESSAGE value="Streams in Java." />
     <MESSAGE value="Wildcards in Java update." />
-    <option name="LAST_COMMIT_MESSAGE" value="Wildcards in Java update." />
+    <MESSAGE value="CustomDictionary Project version I." />
+    <option name="LAST_COMMIT_MESSAGE" value="CustomDictionary Project version I." />
   </component>
   <component name="WindowStateProjectService">
     <state x="627" y="220" width="655" height="598" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1593691072047">
@@ -288,10 +295,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="627" y="209" width="655" height="619" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1594555030240" />
-    <state x="0" y="0" width="1915" height="1040" key="CommitChangelistDialog2" timestamp="1594905913395">
+    <state x="0" y="0" width="1915" height="1040" key="CommitChangelistDialog2" timestamp="1595094470713">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="0" y="0" width="1915" height="1040" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1594905913395" />
+    <state x="0" y="0" width="1915" height="1040" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1595094470713" />
     <state x="690" y="220" width="530" height="598" key="FileChooserDialogImpl" timestamp="1593079836700">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -304,22 +311,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="624" y="158" width="662" height="722" key="Github.UntrackedFilesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1593079771061" />
-    <state width="1864" height="439" key="GridCell.Tab.0.bottom" timestamp="1595094067572">
+    <state width="1864" height="477" key="GridCell.Tab.0.bottom" timestamp="1595099018339">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1864" height="439" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1595094067572" />
-    <state width="1864" height="439" key="GridCell.Tab.0.center" timestamp="1595094067568">
+    <state width="1864" height="477" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1595099018339" />
+    <state width="1864" height="477" key="GridCell.Tab.0.center" timestamp="1595099018334">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1864" height="439" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1595094067568" />
-    <state width="1864" height="439" key="GridCell.Tab.0.left" timestamp="1595094067565">
+    <state width="1864" height="477" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1595099018334" />
+    <state width="1864" height="477" key="GridCell.Tab.0.left" timestamp="1595099018332">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1864" height="439" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1595094067565" />
-    <state width="1864" height="439" key="GridCell.Tab.0.right" timestamp="1595094067570">
+    <state width="1864" height="477" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1595099018332" />
+    <state width="1864" height="477" key="GridCell.Tab.0.right" timestamp="1595099018336">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1864" height="439" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1595094067570" />
+    <state width="1864" height="477" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1595099018336" />
     <state width="1864" height="425" key="GridCell.Tab.1.bottom" timestamp="1595072082338">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -372,10 +379,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="638" y="223" width="634" height="592" key="refactoring.ChangeSignatureDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1593857674988" />
-    <state x="540" y="233" key="run.anything.popup" timestamp="1594718136676">
+    <state x="540" y="233" key="run.anything.popup" timestamp="1595098399742">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="540" y="233" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1594718136676" />
+    <state x="540" y="233" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1595098399742" />
     <state x="539" y="5" width="840" height="1034" key="search.everywhere.popup" timestamp="1595060989315">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

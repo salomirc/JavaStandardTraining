@@ -4,23 +4,17 @@ import java.util.Comparator;
 import java.util.HashMap;
 import java.util.Map;
 
-public class CustomDictionary {
+public class CustomDictionary<K extends  String, V extends String> {
 
-    private final Map<String, String> names = new HashMap<>();
-    private final Map<Integer, String> ports = new HashMap<>();
-    private final Map<String, String> ips = new HashMap<>();
+    private final Map<K, V> names = new HashMap<>();
+    private final Map<K, V> ports = new HashMap<>();
+    private final Map<K, V> ips = new HashMap<>();
 
-    public <K extends Integer, V extends String> void add(K key, V value) {
+    public void add(K key, V value) {
         if (Port.isValid(key)) {
             ports.put(key, value);
         }
-        else {
-            System.out.println(String.format("The input %1$s value is not a valid computer port.", key));
-        }
-    }
-
-    public <K extends String, V extends String> void add(K key, V value) {
-        if (IpAddressValidator.isValid(key)) {
+        else if (IpAddressValidator.isValid(key)) {
             ips.put(key, value);
         }
         else {
@@ -43,11 +37,11 @@ public class CustomDictionary {
         System.out.println();
     }
 
-    private <T> void printMap(T key, Map<?, ?> names) {
+    private void printMap(K key, Map<K, V> names) {
         System.out.println(key + " = " + names.get(key));
     }
 
-    private <T> void safePrint(T key, Map<?, ?> map) {
+    private void safePrint(K key, Map<K, V> map) {
         if (map.containsKey(key)) {
             printMap(key, map);
         }
@@ -56,12 +50,11 @@ public class CustomDictionary {
         }
     }
 
-    public void print(int key) {
-        safePrint(key, ports);
-    }
-
-    public void print(String key) {
-        if (IpAddressValidator.isValid(key)) {
+    public void print(K key) {
+        if (Port.isValid(key)) {
+            safePrint(key, ports);
+        }
+        else if (IpAddressValidator.isValid(key)) {
             safePrint(key, ips);
         }
         else {
