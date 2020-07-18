@@ -7,21 +7,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="087154aa-323b-49ae-a7be-718c32ee6b39" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/belsoft/concurrency_and_multi_threading/interrupting_a_thread/DownloadFileTask2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/belsoft/concurrency_and_multi_threading/interrupting_a_thread/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/belsoft/concurrency_and_multi_threading/interrupting_a_thread/ThreadsDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/belsoft/concurrency_and_multi_threading/joining_threads/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/belsoft/concurrency_and_multi_threading/joining_threads/ThreadsDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/belsoft/concurrency_and_multi_threading/processes_and_threads/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/belsoft/concurrency_and_multi_threading/race_conditions/DownloadFileTask3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/belsoft/concurrency_and_multi_threading/race_conditions/DownloadStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/belsoft/concurrency_and_multi_threading/race_conditions/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/belsoft/concurrency_and_multi_threading/race_conditions/ThreadsDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/belsoft/concurrency_and_multi_threading/starting_a_thread/DownloadFileTask1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/belsoft/concurrency_and_multi_threading/starting_a_thread/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/belsoft/concurrency_and_multi_threading/starting_a_thread/ThreadsDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/belsoft/project/CustomDictionary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/belsoft/project/IpAddressValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/belsoft/project/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/belsoft/project/Port.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/belsoft/types/Variables.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/belsoft/types/Variables.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,6 +54,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveMembersDialog.RECENTS_KEY">
+      <recent name="com.belsoft.project.Port" />
       <recent name="com.belsoft.refactoring_ood.MortgageCalcOODRefactoring" />
       <recent name="com.belsoft.refactoring_ood.MortgageCalculator" />
       <recent name="com.belsoft.refactoring_ood.MortgageReport" />
@@ -73,55 +64,17 @@
       <recent name="com.belsoft.interfaces.segregation" />
     </key>
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.belsoft.project" />
       <recent name="com.belsoft.refactoring_ood" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Variables">
-    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.belsoft.concurrency_and_multi_threading.joining_threads.Main" />
-      <module name="JavaStandardTraining" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.belsoft.concurrency_and_multi_threading.joining_threads.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.belsoft.concurrency_and_multi_threading.race_conditions.Main" />
-      <module name="JavaStandardTraining" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.belsoft.concurrency_and_multi_threading.race_conditions.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main (6)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.belsoft.generics.generic_classes_inheritance.Main" />
-      <module name="JavaStandardTraining" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.belsoft.generics.generic_classes_inheritance.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.belsoft.concurrency_and_multi_threading.processes_and_threads.Main" />
+      <option name="MAIN_CLASS_NAME" value="com.belsoft.project.Main" />
       <module name="JavaStandardTraining" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.belsoft.concurrency_and_multi_threading.processes_and_threads.*" />
+          <option name="PATTERN" value="com.belsoft.project.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -155,32 +108,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Variables" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.belsoft.types.Variables" />
-      <module name="JavaStandardTraining" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.belsoft.types.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <list>
-      <item itemvalue="Application.Main (6)" />
-      <item itemvalue="Application.Main" />
-      <item itemvalue="Application.Main (2)" />
-      <item itemvalue="Application.Main (1)" />
-      <item itemvalue="Application.Variables" />
-    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Variables" />
-        <item itemvalue="Application.Main (2)" />
-        <item itemvalue="Application.Main (2)" />
-        <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.Main (2)" />
       </list>
     </recent_temporary>
@@ -326,6 +256,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="627" y="220" width="655" height="598" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1593691072047" />
+    <state x="414" y="170" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1595068960593">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="414" y="170" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1595068960593" />
     <state x="618" y="303" width="802" height="431" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1594904703216">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -334,18 +268,18 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="721" y="130" width="468" height="777" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1594994967418" />
-    <state x="622" y="265" width="656" height="510" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1593850247003">
+    <state x="622" y="265" width="656" height="510" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1595067746019">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="622" y="265" width="656" height="510" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1593850247003" />
-    <state x="667" y="396" width="585" height="256" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1593850206616">
+    <state x="622" y="265" width="656" height="510" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1595067746019" />
+    <state x="667" y="396" width="585" height="256" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1595067705466">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="667" y="396" width="585" height="256" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1920.1040@0.0.1920.1040" timestamp="1593850206616" />
-    <state x="747" y="261" width="720" height="565" key="#com.intellij.refactoring.move.moveMembers.MoveMembersDialog" timestamp="1593850256571">
+    <state x="667" y="396" width="585" height="256" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1920.1040@0.0.1920.1040" timestamp="1595067705466" />
+    <state x="747" y="261" width="720" height="565" key="#com.intellij.refactoring.move.moveMembers.MoveMembersDialog" timestamp="1595067788015">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="747" y="261" width="720" height="565" key="#com.intellij.refactoring.move.moveMembers.MoveMembersDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1593850256571" />
+    <state x="747" y="261" width="720" height="565" key="#com.intellij.refactoring.move.moveMembers.MoveMembersDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1595067788015" />
     <state x="463" y="0" width="984" height="1040" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1594315335536">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -370,42 +304,42 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="624" y="158" width="662" height="722" key="Github.UntrackedFilesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1593079771061" />
-    <state width="1864" height="442" key="GridCell.Tab.0.bottom" timestamp="1595061495832">
+    <state width="1864" height="439" key="GridCell.Tab.0.bottom" timestamp="1595094067572">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1864" height="442" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1595061495832" />
-    <state width="1864" height="442" key="GridCell.Tab.0.center" timestamp="1595061495831">
+    <state width="1864" height="439" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1595094067572" />
+    <state width="1864" height="439" key="GridCell.Tab.0.center" timestamp="1595094067568">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1864" height="442" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1595061495831" />
-    <state width="1864" height="442" key="GridCell.Tab.0.left" timestamp="1595061495830">
+    <state width="1864" height="439" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1595094067568" />
+    <state width="1864" height="439" key="GridCell.Tab.0.left" timestamp="1595094067565">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1864" height="442" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1595061495830" />
-    <state width="1864" height="442" key="GridCell.Tab.0.right" timestamp="1595061495832">
+    <state width="1864" height="439" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1595094067565" />
+    <state width="1864" height="439" key="GridCell.Tab.0.right" timestamp="1595094067570">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1864" height="442" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1595061495832" />
-    <state width="1864" height="425" key="GridCell.Tab.1.bottom" timestamp="1594905980750">
+    <state width="1864" height="439" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1595094067570" />
+    <state width="1864" height="425" key="GridCell.Tab.1.bottom" timestamp="1595072082338">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1864" height="425" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1594905980750" />
-    <state width="1864" height="425" key="GridCell.Tab.1.center" timestamp="1594905980749">
+    <state width="1864" height="425" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1595072082338" />
+    <state width="1864" height="425" key="GridCell.Tab.1.center" timestamp="1595072082337">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1864" height="425" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1594905980749" />
-    <state width="1864" height="425" key="GridCell.Tab.1.left" timestamp="1594905980749">
+    <state width="1864" height="425" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1595072082337" />
+    <state width="1864" height="425" key="GridCell.Tab.1.left" timestamp="1595072082335">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1864" height="425" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1594905980749" />
-    <state width="1864" height="425" key="GridCell.Tab.1.right" timestamp="1594905980749">
+    <state width="1864" height="425" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1595072082335" />
+    <state width="1864" height="425" key="GridCell.Tab.1.right" timestamp="1595072082338">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1864" height="425" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1594905980749" />
-    <state x="728" y="449" width="463" height="140" key="ReplaceDuplicatesPrompt" timestamp="1593858409081">
+    <state width="1864" height="425" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1595072082338" />
+    <state x="728" y="449" width="463" height="140" key="ReplaceDuplicatesPrompt" timestamp="1595093660370">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="728" y="449" width="463" height="140" key="ReplaceDuplicatesPrompt/0.0.1920.1040@0.0.1920.1040" timestamp="1593858409081" />
+    <state x="728" y="449" width="463" height="140" key="ReplaceDuplicatesPrompt/0.0.1920.1040@0.0.1920.1040" timestamp="1595093660370" />
     <state x="607" y="154" width="695" height="729" key="RollbackChangesDialog" timestamp="1594897395127">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -418,10 +352,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="314" height="242" key="ShowFilterAction_Filter_Popup/0.0.1920.1040@0.0.1920.1040" timestamp="1595060945270" />
-    <state x="455" y="192" width="1000" height="654" key="Vcs.Push.Dialog.v2" timestamp="1594905925774">
+    <state x="455" y="192" width="1000" height="654" key="Vcs.Push.Dialog.v2" timestamp="1595064362616">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="455" y="192" width="1000" height="654" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1594905925774" />
+    <state x="455" y="192" width="1000" height="654" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1595064362616" />
     <state width="1065" height="1038" key="com.intellij.byteCodeViewer.ShowByteCodeAction" timestamp="1594902795215">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -430,10 +364,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="329" y="197" width="1251" height="643" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1920.1040@0.0.1920.1040" timestamp="1593703815732" />
-    <state x="627" y="217" width="904" height="690" key="extract.method.dialog" timestamp="1593860367707">
+    <state x="685" y="216" width="904" height="690" key="extract.method.dialog" timestamp="1595093626202">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="627" y="217" width="904" height="690" key="extract.method.dialog/0.0.1920.1040@0.0.1920.1040" timestamp="1593860367707" />
+    <state x="685" y="216" width="904" height="690" key="extract.method.dialog/0.0.1920.1040@0.0.1920.1040" timestamp="1595093626202" />
     <state x="638" y="223" width="634" height="592" key="refactoring.ChangeSignatureDialog" timestamp="1593857674988">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
