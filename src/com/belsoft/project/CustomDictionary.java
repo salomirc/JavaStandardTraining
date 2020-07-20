@@ -4,14 +4,14 @@ import java.util.Comparator;
 import java.util.HashMap;
 import java.util.Map;
 
-public class CustomDictionary<K extends  String, V extends String> {
+public class CustomDictionary {
 
-    private final Map<K, V> names = new HashMap<>();
-    private final Map<K, V> ports = new HashMap<>();
-    private final Map<K, V> ips = new HashMap<>();
+    private final Map<String, String> names = new HashMap<>();
+    private final Map<String, String> ports = new HashMap<>();
+    private final Map<String, String> ips = new HashMap<>();
 
-    public void add(K key, V value) {
-        if (Port.isValid(key)) {
+    public void add(String key, String value) {
+        if (PortValidator.isValid(key)) {
             ports.put(key, value);
         }
         else if (IpAddressValidator.isValid(key)) {
@@ -37,11 +37,11 @@ public class CustomDictionary<K extends  String, V extends String> {
         System.out.println();
     }
 
-    private void printMap(K key, Map<K, V> names) {
+    private void printMap(String key, Map<String, String> names) {
         System.out.println(key + " = " + names.get(key));
     }
 
-    private void safePrint(K key, Map<K, V> map) {
+    private void safePrint(String key, Map<String, String> map) {
         if (map.containsKey(key)) {
             printMap(key, map);
         }
@@ -50,8 +50,8 @@ public class CustomDictionary<K extends  String, V extends String> {
         }
     }
 
-    public void print(K key) {
-        if (Port.isValid(key)) {
+    public void print(String key) {
+        if (PortValidator.isValid(key)) {
             safePrint(key, ports);
         }
         else if (IpAddressValidator.isValid(key)) {

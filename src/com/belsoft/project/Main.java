@@ -3,7 +3,7 @@ package com.belsoft.project;
 public class Main {
     public static void main(String[] args) {
 
-        var dictionary = new CustomDictionary<>();
+        var dictionary = new CustomDictionary();
 
         dictionary.add("500", "Port 100");
         dictionary.add("100", "Port 100");
@@ -11,7 +11,7 @@ public class Main {
         dictionary.add("1", "Port 1");
         dictionary.add("200", "Port 100");
         dictionary.add("C", "Java developer.");
-        dictionary.add("B", "Java developer.");
+        dictionary.add("B", "Kotlin developer.");
         dictionary.add("A", "Python developer.");
         dictionary.add("100.168.0.1", "Router");
         dictionary.add("1.168.0.1", "Router");

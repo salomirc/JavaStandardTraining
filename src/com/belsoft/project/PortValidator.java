@@ -1,6 +1,6 @@
 package com.belsoft.project;
 
-public class Port {
+public class PortValidator {
     public static final int MAX_PORT_VALUE = 65535;
 
     // Return true when *port* is valid port
