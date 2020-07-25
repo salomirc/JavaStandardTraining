@@ -11,10 +11,9 @@ public class ThreadsDemo {
             // blocking operation
             // MainThread wait for the completion of this thread
             thread.join();
+            System.out.println("File is ready to be scanned.");
         } catch (InterruptedException e) {
-            e.printStackTrace();
+            System.out.println(Thread.currentThread().getName() + " was interrupted.");
         }
-
-        System.out.println("File is ready to be scanned.");
     }
 }

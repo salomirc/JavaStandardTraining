@@ -1,13 +1,10 @@
-package com.belsoft.concurrency_and_multi_threading.race_conditions;
+package com.belsoft.concurrency_and_multi_threading.the_synchronized_keyword;
 
-public class DownloadFileTask3 implements Runnable {
+
+public class DownloadFileTask5 implements Runnable {
     private final DownloadStatus status;
 
-    public DownloadFileTask3() {
-        status = new DownloadStatus();
-    }
-
-    public DownloadFileTask3(DownloadStatus status) {
+    public DownloadFileTask5(DownloadStatus status) {
         this.status = status;
     }
 

@@ -1,4 +1,4 @@
-package com.belsoft.concurrency_and_multi_threading.race_conditions;
+package com.belsoft.concurrency_and_multi_threading.locks;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -10,7 +10,7 @@ public class ThreadsDemo {
         List<Thread> threads = new ArrayList<>();
 
         for (var i = 0; i < 10; i++ ) {
-            var thread = new Thread(new DownloadFileTask3(status));
+            var thread = new Thread(new DownloadFileTask4(status));
             thread.start();
             threads.add(thread);
         }

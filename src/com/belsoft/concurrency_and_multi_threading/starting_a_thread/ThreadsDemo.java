@@ -8,5 +8,7 @@ public class ThreadsDemo {
             Thread thread = new Thread(new DownloadFileTask1());
             thread.start();
         }
+
+        System.out.println("The " + Thread.currentThread().getName() + " thread is running...");
     }
 }
