@@ -7,41 +7,38 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="087154aa-323b-49ae-a7be-718c32ee6b39" name="Default Changelist" comment="CustomDictionary Project version I.">
-      <change afterPath="$PROJECT_DIR$/src/com/belsoft/concurrency_and_multi_threading/adders/DownloadFileTask9.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/belsoft/concurrency_and_multi_threading/adders/DownloadStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/belsoft/concurrency_and_multi_threading/adders/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/belsoft/concurrency_and_multi_threading/adders/ThreadsDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/belsoft/concurrency_and_multi_threading/atomic_objects/DownloadFileTask8.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/belsoft/concurrency_and_multi_threading/atomic_objects/DownloadStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/belsoft/concurrency_and_multi_threading/atomic_objects/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/belsoft/concurrency_and_multi_threading/atomic_objects/ThreadsDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/belsoft/concurrency_and_multi_threading/concurrent_collections/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/belsoft/concurrency_and_multi_threading/concurrent_collections/ThreadsDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/belsoft/concurrency_and_multi_threading/confinement/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/belsoft/concurrency_and_multi_threading/confinement/ThreadsDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/belsoft/concurrency_and_multi_threading/locks/DownloadFileTask4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/belsoft/concurrency_and_multi_threading/locks/DownloadStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/belsoft/concurrency_and_multi_threading/locks/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/belsoft/concurrency_and_multi_threading/locks/ThreadsDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/belsoft/concurrency_and_multi_threading/synchronized_collections/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/belsoft/concurrency_and_multi_threading/synchronized_collections/ThreadsDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/belsoft/concurrency_and_multi_threading/the_synchronized_keyword/DownloadFileTask5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/belsoft/concurrency_and_multi_threading/the_synchronized_keyword/DownloadStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/belsoft/concurrency_and_multi_threading/the_synchronized_keyword/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/belsoft/concurrency_and_multi_threading/the_synchronized_keyword/ThreadsDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/belsoft/concurrency_and_multi_threading/the_volatile_keyword/DownloadFileTask6.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/belsoft/concurrency_and_multi_threading/the_volatile_keyword/DownloadStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/belsoft/concurrency_and_multi_threading/the_volatile_keyword/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/belsoft/concurrency_and_multi_threading/the_volatile_keyword/ThreadsDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/belsoft/concurrency_and_multi_threading/thread_signalling/DownloadFileTask7.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/belsoft/concurrency_and_multi_threading/thread_signalling/DownloadStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/belsoft/concurrency_and_multi_threading/thread_signalling/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/belsoft/concurrency_and_multi_threading/thread_signalling/ThreadsDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/belsoft/the_executive_framework/callables_and_futures/ExecutorsDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/belsoft/the_executive_framework/callables_and_futures/LongTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/belsoft/the_executive_framework/callables_and_futures/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/belsoft/the_executive_framework/combining_completable_futures/CompletableFutureDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/belsoft/the_executive_framework/combining_completable_futures/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/belsoft/the_executive_framework/composing_completable_futures/CompletableFutureDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/belsoft/the_executive_framework/composing_completable_futures/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/belsoft/the_executive_framework/creating_a_completable_future/CompletableFutureDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/belsoft/the_executive_framework/creating_a_completable_future/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/belsoft/the_executive_framework/executors/ExecutorsDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/belsoft/the_executive_framework/executors/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/belsoft/the_executive_framework/handling_exceptions/CompletableFutureDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/belsoft/the_executive_framework/handling_exceptions/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/belsoft/the_executive_framework/handling_timeouts/CompletableFutureDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/belsoft/the_executive_framework/handling_timeouts/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/belsoft/the_executive_framework/implementing_an_asynchronous_api/LongTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/belsoft/the_executive_framework/implementing_an_asynchronous_api/MailService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/belsoft/the_executive_framework/implementing_an_asynchronous_api/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/belsoft/the_executive_framework/project_best_price_finder/CompletableFutureDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/belsoft/the_executive_framework/project_best_price_finder/FlightService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/belsoft/the_executive_framework/project_best_price_finder/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/belsoft/the_executive_framework/project_best_price_finder/Quote.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/belsoft/the_executive_framework/running_code_on_completion/CompletableFutureDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/belsoft/the_executive_framework/running_code_on_completion/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/belsoft/the_executive_framework/running_code_on_completion/ShortTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/belsoft/the_executive_framework/transforming_results/CompletableFutureDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/belsoft/the_executive_framework/transforming_results/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/belsoft/the_executive_framework/waiting_for_all_tasks_to_complete/CompletableFutureDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/belsoft/the_executive_framework/waiting_for_all_tasks_to_complete/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/belsoft/the_executive_framework/waiting_for_any_task_to_complete/CompletableFutureDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/belsoft/the_executive_framework/waiting_for_any_task_to_complete/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/belsoft/concurrency_and_multi_threading/joining_threads/ThreadsDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/belsoft/concurrency_and_multi_threading/joining_threads/ThreadsDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/belsoft/concurrency_and_multi_threading/race_conditions/DownloadFileTask3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/belsoft/concurrency_and_multi_threading/race_conditions/DownloadFileTask3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/belsoft/concurrency_and_multi_threading/race_conditions/ThreadsDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/belsoft/concurrency_and_multi_threading/race_conditions/ThreadsDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/belsoft/concurrency_and_multi_threading/starting_a_thread/ThreadsDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/belsoft/concurrency_and_multi_threading/starting_a_thread/ThreadsDemo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,12 +76,15 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
     <property name="extract.method.default.visibility" value="private" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/com/belsoft/concurrency_and_multi_threading/concurrent_collections" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/com/belsoft/the_executive_framework/project_best_price_finder" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.belsoft.the_executive_framework.running_code_on_completion" />
+    </key>
     <key name="MoveMembersDialog.RECENTS_KEY">
       <recent name="com.belsoft.project.Port" />
       <recent name="com.belsoft.refactoring_ood.MortgageCalcOODRefactoring" />
@@ -92,28 +92,41 @@
       <recent name="com.belsoft.refactoring_ood.MortgageReport" />
       <recent name="com.belsoft.refactoring_ood.Console" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/com/belsoft/concurrency_and_multi_threading/concurrent_collections" />
-      <recent name="$PROJECT_DIR$/src/com/belsoft/concurrency_and_multi_threading/synchronized_collections" />
-      <recent name="$PROJECT_DIR$/src/com/belsoft/concurrency_and_multi_threading/adders" />
-      <recent name="$PROJECT_DIR$/src/com/belsoft/concurrency_and_multi_threading/atomic_objects" />
-      <recent name="$PROJECT_DIR$/src/com/belsoft/concurrency_and_multi_threading/thread_signalling" />
-    </key>
-    <key name="ExtractSuperBase.RECENT_KEYS">
-      <recent name="com.belsoft.interfaces.segregation" />
-    </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.belsoft.project" />
       <recent name="com.belsoft.refactoring_ood" />
     </key>
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="com.belsoft.interfaces.segregation" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/com/belsoft/the_executive_framework/project_best_price_finder" />
+      <recent name="$PROJECT_DIR$/src/com/belsoft/the_executive_framework/handling_timeouts" />
+      <recent name="$PROJECT_DIR$/src/com/belsoft/the_executive_framework/waiting_for_the_first_task" />
+      <recent name="$PROJECT_DIR$/src/com/belsoft/the_executive_framework/waiting_for_any_tasks_to_complete" />
+      <recent name="$PROJECT_DIR$/src/com/belsoft/the_executive_framework/combining_completable_futures" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.belsoft.concurrency_and_multi_threading.thread_signalling.Main" />
+  <component name="RunManager" selected="Application.Main (3)">
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.belsoft.the_executive_framework.handling_timeouts.Main" />
       <module name="JavaStandardTraining" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.belsoft.concurrency_and_multi_threading.thread_signalling.*" />
+          <option name="PATTERN" value="com.belsoft.the_executive_framework.handling_timeouts.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.belsoft.the_executive_framework.running_code_on_completion.Main" />
+      <module name="JavaStandardTraining" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.belsoft.the_executive_framework.running_code_on_completion.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -122,11 +135,11 @@
       </method>
     </configuration>
     <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.belsoft.concurrency_and_multi_threading.the_volatile_keyword.Main" />
+      <option name="MAIN_CLASS_NAME" value="com.belsoft.the_executive_framework.project_best_price_finder.Main" />
       <module name="JavaStandardTraining" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.belsoft.concurrency_and_multi_threading.the_volatile_keyword.*" />
+          <option name="PATTERN" value="com.belsoft.the_executive_framework.project_best_price_finder.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -134,25 +147,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.belsoft.concurrency_and_multi_threading.adders.Main" />
+    <configuration name="Main (6)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.belsoft.the_executive_framework.composing_completable_futures.Main" />
       <module name="JavaStandardTraining" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.belsoft.concurrency_and_multi_threading.adders.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.belsoft.concurrency_and_multi_threading.synchronized_collections.Main" />
-      <module name="JavaStandardTraining" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.belsoft.concurrency_and_multi_threading.synchronized_collections.*" />
+          <option name="PATTERN" value="com.belsoft.the_executive_framework.composing_completable_futures.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -161,11 +161,50 @@
       </method>
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.belsoft.concurrency_and_multi_threading.concurrent_collections.Main" />
+      <option name="MAIN_CLASS_NAME" value="com.belsoft.the_executive_framework.combining_completable_futures.Main" />
       <module name="JavaStandardTraining" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.belsoft.concurrency_and_multi_threading.concurrent_collections.*" />
+          <option name="PATTERN" value="com.belsoft.the_executive_framework.combining_completable_futures.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.belsoft.the_executive_framework.waiting_for_any_task_to_complete.Main" />
+      <module name="JavaStandardTraining" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.belsoft.the_executive_framework.waiting_for_any_task_to_complete.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.belsoft.the_executive_framework.waiting_for_all_tasks_to_complete.Main" />
+      <module name="JavaStandardTraining" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.belsoft.the_executive_framework.waiting_for_all_tasks_to_complete.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.belsoft.the_executive_framework.waiting_for_many_tasks_to_complete.Main" />
+      <module name="JavaStandardTraining" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.belsoft.the_executive_framework.waiting_for_many_tasks_to_complete.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -188,9 +227,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Main (5)" />
-        <item itemvalue="Application.Main (4)" />
+        <item itemvalue="Application.Main (3)" />
+        <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.Main (6)" />
         <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.Main (3)" />
       </list>
@@ -352,18 +391,18 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="627" y="220" width="655" height="598" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1593691072047" />
-    <state x="414" y="170" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1595495073767">
+    <state x="414" y="170" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1595672732578">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="414" y="170" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1595495073767" />
+    <state x="414" y="170" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1595672732578" />
     <state x="618" y="303" width="802" height="431" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1594904703216">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="618" y="303" width="802" height="431" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1594904703216" />
-    <state x="721" y="130" width="468" height="777" key="#com.intellij.ide.util.MemberChooser" timestamp="1595606887258">
+    <state x="721" y="130" width="660" height="777" key="#com.intellij.ide.util.MemberChooser" timestamp="1595761507026">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="721" y="130" width="468" height="777" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1595606887258" />
+    <state x="721" y="130" width="660" height="777" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1595761507026" />
     <state x="622" y="265" width="656" height="510" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1595067746019">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -380,14 +419,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="463" y="0" width="984" height="1040" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1594315335536" />
-    <state x="627" y="209" width="655" height="619" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1594555030240">
+    <state x="627" y="209" width="655" height="619" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1595683690778">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="627" y="209" width="655" height="619" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1594555030240" />
-    <state x="0" y="0" width="1915" height="1040" key="CommitChangelistDialog2" timestamp="1595670283586">
+    <state x="627" y="209" width="655" height="619" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1595683690778" />
+    <state x="0" y="0" width="1915" height="1040" key="CommitChangelistDialog2" timestamp="1595670610791">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="0" y="0" width="1915" height="1040" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1595670283586" />
+    <state x="0" y="0" width="1915" height="1040" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1595670610791" />
     <state x="690" y="220" width="530" height="598" key="FileChooserDialogImpl" timestamp="1593079836700">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -400,22 +439,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="624" y="158" width="662" height="722" key="Github.UntrackedFilesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1593079771061" />
-    <state width="1864" height="432" key="GridCell.Tab.0.bottom" timestamp="1595670012982">
+    <state width="1864" height="537" key="GridCell.Tab.0.bottom" timestamp="1595768787540">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1864" height="432" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1595670012982" />
-    <state width="1864" height="432" key="GridCell.Tab.0.center" timestamp="1595670012977">
+    <state width="1864" height="537" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1595768787540" />
+    <state width="1864" height="537" key="GridCell.Tab.0.center" timestamp="1595768787535">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1864" height="432" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1595670012977" />
-    <state width="1864" height="432" key="GridCell.Tab.0.left" timestamp="1595670012975">
+    <state width="1864" height="537" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1595768787535" />
+    <state width="1864" height="537" key="GridCell.Tab.0.left" timestamp="1595768787533">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1864" height="432" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1595670012975" />
-    <state width="1864" height="432" key="GridCell.Tab.0.right" timestamp="1595670012980">
+    <state width="1864" height="537" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1595768787533" />
+    <state width="1864" height="537" key="GridCell.Tab.0.right" timestamp="1595768787538">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1864" height="432" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1595670012980" />
+    <state width="1864" height="537" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1595768787538" />
     <state width="1864" height="425" key="GridCell.Tab.1.bottom" timestamp="1595609904479">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -448,10 +487,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="314" height="242" key="ShowFilterAction_Filter_Popup/0.0.1920.1040@0.0.1920.1040" timestamp="1595060945270" />
-    <state x="455" y="192" width="1000" height="654" key="Vcs.Push.Dialog.v2" timestamp="1595064362616">
+    <state x="455" y="192" width="1000" height="654" key="Vcs.Push.Dialog.v2" timestamp="1595670583602">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="455" y="192" width="1000" height="654" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1595064362616" />
+    <state x="455" y="192" width="1000" height="654" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1595670583602" />
     <state width="1065" height="1038" key="com.intellij.byteCodeViewer.ShowByteCodeAction" timestamp="1594902795215">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -464,18 +503,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="685" y="216" width="904" height="690" key="extract.method.dialog/0.0.1920.1040@0.0.1920.1040" timestamp="1595093626202" />
+    <state x="578" y="43" width="764" height="951" key="find.popup" timestamp="1595760982001">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="578" y="43" width="764" height="951" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1595760982001" />
     <state x="638" y="223" width="634" height="592" key="refactoring.ChangeSignatureDialog" timestamp="1593857674988">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="638" y="223" width="634" height="592" key="refactoring.ChangeSignatureDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1593857674988" />
-    <state x="540" y="233" key="run.anything.popup" timestamp="1595526349156">
+    <state x="540" y="233" key="run.anything.popup" timestamp="1595768024451">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="540" y="233" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1595526349156" />
-    <state x="539" y="5" width="840" height="1034" key="search.everywhere.popup" timestamp="1595060989315">
+    <state x="540" y="233" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1595768024451" />
+    <state x="539" y="5" width="840" height="1034" key="search.everywhere.popup" timestamp="1595760914590">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="539" y="5" width="840" height="1034" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1595060989315" />
+    <state x="539" y="5" width="840" height="1034" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1595760914590" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
