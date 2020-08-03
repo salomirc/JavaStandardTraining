@@ -7,38 +7,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="087154aa-323b-49ae-a7be-718c32ee6b39" name="Default Changelist" comment="CustomDictionary Project version I.">
-      <change afterPath="$PROJECT_DIR$/src/com/belsoft/the_executive_framework/callables_and_futures/ExecutorsDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/belsoft/the_executive_framework/callables_and_futures/LongTask.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/belsoft/the_executive_framework/callables_and_futures/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/belsoft/the_executive_framework/combining_completable_futures/CompletableFutureDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/belsoft/the_executive_framework/combining_completable_futures/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/belsoft/the_executive_framework/composing_completable_futures/CompletableFutureDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/belsoft/the_executive_framework/composing_completable_futures/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/belsoft/the_executive_framework/creating_a_completable_future/CompletableFutureDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/belsoft/the_executive_framework/creating_a_completable_future/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/belsoft/the_executive_framework/executors/ExecutorsDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/belsoft/the_executive_framework/executors/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/belsoft/the_executive_framework/handling_exceptions/CompletableFutureDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/belsoft/the_executive_framework/handling_exceptions/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/belsoft/the_executive_framework/handling_timeouts/CompletableFutureDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/belsoft/the_executive_framework/handling_timeouts/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/belsoft/the_executive_framework/implementing_an_asynchronous_api/LongTask.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/belsoft/the_executive_framework/implementing_an_asynchronous_api/MailService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/belsoft/the_executive_framework/implementing_an_asynchronous_api/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/belsoft/the_executive_framework/project_best_price_finder/CompletableFutureDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/belsoft/the_executive_framework/project_best_price_finder/FlightService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/belsoft/the_executive_framework/project_best_price_finder/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/belsoft/the_executive_framework/project_best_price_finder/Quote.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/belsoft/the_executive_framework/running_code_on_completion/CompletableFutureDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/belsoft/the_executive_framework/running_code_on_completion/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/belsoft/the_executive_framework/running_code_on_completion/ShortTask.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/belsoft/the_executive_framework/transforming_results/CompletableFutureDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/belsoft/the_executive_framework/transforming_results/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/belsoft/the_executive_framework/waiting_for_all_tasks_to_complete/CompletableFutureDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/belsoft/the_executive_framework/waiting_for_all_tasks_to_complete/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/belsoft/the_executive_framework/waiting_for_any_task_to_complete/CompletableFutureDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/belsoft/the_executive_framework/waiting_for_any_task_to_complete/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/belsoft/project/CustomDictionary.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/belsoft/project/IpAddressValidator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/belsoft/project/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/belsoft/project/PortValidator.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +30,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="DictionaryProjectV2" />
+        <entry key="$PROJECT_DIR$" value="test" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -423,10 +395,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="627" y="209" width="655" height="619" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1595683690778" />
-    <state x="0" y="0" width="1915" height="1040" key="CommitChangelistDialog2" timestamp="1595670610791">
+    <state x="0" y="0" width="1915" height="1040" key="CommitChangelistDialog2" timestamp="1596438419804">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="0" y="0" width="1915" height="1040" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1595670610791" />
+    <state x="0" y="0" width="1915" height="1040" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1596438419804" />
     <state x="690" y="220" width="530" height="598" key="FileChooserDialogImpl" timestamp="1593079836700">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
