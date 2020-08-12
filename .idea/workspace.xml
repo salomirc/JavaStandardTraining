@@ -86,7 +86,7 @@
       <recent name="$PROJECT_DIR$/src/com/belsoft/the_executive_framework/waiting_for_the_first_task" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main (3)">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.belsoft.the_executive_framework.waiting_for_any_task_to_complete.Main" />
       <module name="JavaStandardTraining" />
@@ -219,8 +219,6 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main (3)" />
-        <item itemvalue="Application.Main (3)" />
         <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.Main (4)" />
         <item itemvalue="Application.Main (1)" />
