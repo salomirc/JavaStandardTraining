@@ -7,7 +7,7 @@ import java.util.concurrent.ExecutionException;
 import java.util.function.Supplier;
 
 public class CompletableFutureDemo {
-    public static void show() {
+    public static void  show() {
         Runnable task1 = () -> {
             LongTask.simulate();
             System.out.println("a");

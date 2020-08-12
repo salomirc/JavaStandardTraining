@@ -1,4 +1,4 @@
-package com.belsoft.lambdas.LambdasDemo;
+package com.belsoft.lambdas.lambdas_demo;
 
 public class Main {
     public static void main(String[] args) {

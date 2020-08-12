@@ -1,4 +1,4 @@
-package com.belsoft.lambdas.LambdasDemo;
+package com.belsoft.lambdas.lambdas_demo;
 
 public class ConsolePrinter implements Printer {
     @Override
