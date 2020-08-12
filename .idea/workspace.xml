@@ -7,16 +7,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="087154aa-323b-49ae-a7be-718c32ee6b39" name="Default Changelist" comment="CompletableFuture cancelling experiment.">
-      <change afterPath="$PROJECT_DIR$/src/com/belsoft/the_executive_framework/cancelling_an_completable_futures/computation/LongRunningComputation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/belsoft/the_executive_framework/cancelling_an_completable_futures/computation/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/belsoft/the_executive_framework/cancelling_an_completable_futures/sleeping/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/belsoft/the_executive_framework/cancelling_an_completable_futures/sleeping/ThreadIsSleeping.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/belsoft/lambdas/LambdasDemo/ConsolePrinter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/belsoft/lambdas/lambdas_demo/ConsolePrinter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/belsoft/lambdas/LambdasDemo/LambdasDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/belsoft/lambdas/lambdas_demo/LambdasDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/belsoft/lambdas/LambdasDemo/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/belsoft/lambdas/lambdas_demo/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/belsoft/lambdas/LambdasDemo/Printer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/belsoft/lambdas/lambdas_demo/Printer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/belsoft/the_executive_framework/creating_a_completable_future/CompletableFutureDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/belsoft/the_executive_framework/creating_a_completable_future/CompletableFutureDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/belsoft/the_executive_framework/cancelling_completable_futures_experiment/computation/LongRunningComputation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/belsoft/the_executive_framework/cancelling_completable_futures_experiment/computation/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/belsoft/the_executive_framework/cancelling_completable_futures_experiment/sleeping/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/belsoft/the_executive_framework/cancelling_completable_futures_experiment/sleeping/ThreadIsSleeping.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,7 +31,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="JavaTestProject" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -60,20 +55,12 @@
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.belsoft.the_executive_framework.cancelling_an_completable_futures.sleeping" />
-      <recent name="com.belsoft.the_executive_framework.running_code_on_completion" />
-    </key>
     <key name="MoveMembersDialog.RECENTS_KEY">
       <recent name="com.belsoft.project.Port" />
       <recent name="com.belsoft.refactoring_ood.MortgageCalcOODRefactoring" />
       <recent name="com.belsoft.refactoring_ood.MortgageCalculator" />
       <recent name="com.belsoft.refactoring_ood.MortgageReport" />
       <recent name="com.belsoft.refactoring_ood.Console" />
-    </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.belsoft.project" />
-      <recent name="com.belsoft.refactoring_ood" />
     </key>
     <key name="ExtractSuperBase.RECENT_KEYS">
       <recent name="com.belsoft.interfaces.segregation" />
@@ -84,6 +71,14 @@
       <recent name="$PROJECT_DIR$/src/com/belsoft/the_executive_framework/project_best_price_finder" />
       <recent name="$PROJECT_DIR$/src/com/belsoft/the_executive_framework/handling_timeouts" />
       <recent name="$PROJECT_DIR$/src/com/belsoft/the_executive_framework/waiting_for_the_first_task" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.belsoft.the_executive_framework.cancelling_an_completable_futures.sleeping" />
+      <recent name="com.belsoft.the_executive_framework.running_code_on_completion" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.belsoft.project" />
+      <recent name="com.belsoft.refactoring_ood" />
     </key>
   </component>
   <component name="RunManager" selected="Application.Main">
