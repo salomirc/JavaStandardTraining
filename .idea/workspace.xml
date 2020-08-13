@@ -7,11 +7,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="087154aa-323b-49ae-a7be-718c32ee6b39" name="Default Changelist" comment="CompletableFuture cancelling experiment.">
+      <change afterPath="$PROJECT_DIR$/src/com/belsoft/project_v2/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/belsoft/project_v2/CustomDictionary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/belsoft/project_v2/Domain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/belsoft/project_v2/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/belsoft/project_v2/MapInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/belsoft/project_v2/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/belsoft/the_executive_framework/cancelling_completable_futures_experiment/computation/LongRunningComputation.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/belsoft/the_executive_framework/cancelling_completable_futures_experiment/computation/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/belsoft/the_executive_framework/cancelling_completable_futures_experiment/sleeping/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/belsoft/the_executive_framework/cancelling_completable_futures_experiment/sleeping/ThreadIsSleeping.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,7 +33,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="JavaTestProject" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -49,12 +51,16 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
     <property name="extract.method.default.visibility" value="private" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/com/belsoft/the_executive_framework/cancelling_an_completable_futures" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/com/belsoft/project_v2" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.belsoft.the_executive_framework.cancelling_an_completable_futures.sleeping" />
+      <recent name="com.belsoft.the_executive_framework.running_code_on_completion" />
+    </key>
     <key name="MoveMembersDialog.RECENTS_KEY">
       <recent name="com.belsoft.project.Port" />
       <recent name="com.belsoft.refactoring_ood.MortgageCalcOODRefactoring" />
@@ -62,26 +68,22 @@
       <recent name="com.belsoft.refactoring_ood.MortgageReport" />
       <recent name="com.belsoft.refactoring_ood.Console" />
     </key>
-    <key name="ExtractSuperBase.RECENT_KEYS">
-      <recent name="com.belsoft.interfaces.segregation" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/com/belsoft/the_executive_framework/cancelling_an_completable_futures" />
-      <recent name="$PROJECT_DIR$/src/com/belsoft/project" />
-      <recent name="$PROJECT_DIR$/src/com/belsoft/the_executive_framework/project_best_price_finder" />
-      <recent name="$PROJECT_DIR$/src/com/belsoft/the_executive_framework/handling_timeouts" />
-      <recent name="$PROJECT_DIR$/src/com/belsoft/the_executive_framework/waiting_for_the_first_task" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.belsoft.the_executive_framework.cancelling_an_completable_futures.sleeping" />
-      <recent name="com.belsoft.the_executive_framework.running_code_on_completion" />
-    </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.belsoft.project" />
       <recent name="com.belsoft.refactoring_ood" />
     </key>
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="com.belsoft.interfaces.segregation" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/com/belsoft/project_v2" />
+      <recent name="$PROJECT_DIR$/src/com/belsoft/the_executive_framework/cancelling_an_completable_futures" />
+      <recent name="$PROJECT_DIR$/src/com/belsoft/project" />
+      <recent name="$PROJECT_DIR$/src/com/belsoft/the_executive_framework/project_best_price_finder" />
+      <recent name="$PROJECT_DIR$/src/com/belsoft/the_executive_framework/handling_timeouts" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.Main (3)">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.belsoft.the_executive_framework.waiting_for_any_task_to_complete.Main" />
       <module name="JavaStandardTraining" />
@@ -101,6 +103,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.belsoft.the_executive_framework.handling_timeouts.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.belsoft.project_v2.Main" />
+      <module name="JavaStandardTraining" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.belsoft.project_v2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -214,6 +229,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (3)" />
         <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.Main (4)" />
         <item itemvalue="Application.Main (1)" />
@@ -408,10 +424,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="618" y="303" width="802" height="431" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1594904703216" />
-    <state x="721" y="130" width="660" height="777" key="#com.intellij.ide.util.MemberChooser" timestamp="1595761507026">
+    <state x="721" y="130" width="660" height="777" key="#com.intellij.ide.util.MemberChooser" timestamp="1597322525434">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="721" y="130" width="660" height="777" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1595761507026" />
+    <state x="721" y="130" width="660" height="777" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1597322525434" />
     <state x="622" y="265" width="656" height="510" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1595067746019">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -424,18 +440,18 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="747" y="261" width="720" height="565" key="#com.intellij.refactoring.move.moveMembers.MoveMembersDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1595067788015" />
-    <state x="463" y="0" width="984" height="1040" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1594315335536">
+    <state x="463" y="0" width="984" height="1040" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1597305198461">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="463" y="0" width="984" height="1040" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1594315335536" />
-    <state x="627" y="209" width="655" height="619" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1595683690778">
+    <state x="463" y="0" width="984" height="1040" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1597305198461" />
+    <state x="627" y="209" width="655" height="619" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1597300516553">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="627" y="209" width="655" height="619" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1595683690778" />
-    <state x="0" y="0" width="1915" height="1040" key="CommitChangelistDialog2" timestamp="1597239564202">
+    <state x="627" y="209" width="655" height="619" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1597300516553" />
+    <state x="0" y="0" width="1915" height="1040" key="CommitChangelistDialog2" timestamp="1597300397848">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="0" y="0" width="1915" height="1040" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1597239564202" />
+    <state x="0" y="0" width="1915" height="1040" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1597300397848" />
     <state x="690" y="220" width="530" height="598" key="FileChooserDialogImpl" timestamp="1593079836700">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -464,22 +480,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1864" height="380" key="GridCell.Tab.-1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1597225591976" />
-    <state width="1864" height="379" key="GridCell.Tab.0.bottom" timestamp="1597239443604">
+    <state width="1864" height="379" key="GridCell.Tab.0.bottom" timestamp="1597323855305">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1864" height="379" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1597239443604" />
-    <state width="1864" height="379" key="GridCell.Tab.0.center" timestamp="1597239443602">
+    <state width="1864" height="379" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1597323855305" />
+    <state width="1864" height="379" key="GridCell.Tab.0.center" timestamp="1597323855302">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1864" height="379" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1597239443602" />
-    <state width="1864" height="379" key="GridCell.Tab.0.left" timestamp="1597239443601">
+    <state width="1864" height="379" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1597323855302" />
+    <state width="1864" height="379" key="GridCell.Tab.0.left" timestamp="1597323855299">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1864" height="379" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1597239443601" />
-    <state width="1864" height="379" key="GridCell.Tab.0.right" timestamp="1597239443603">
+    <state width="1864" height="379" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1597323855299" />
+    <state width="1864" height="379" key="GridCell.Tab.0.right" timestamp="1597323855304">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1864" height="379" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1597239443603" />
+    <state width="1864" height="379" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1597323855304" />
     <state width="1864" height="380" key="GridCell.Tab.1.bottom" timestamp="1597227586104">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -500,10 +516,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="728" y="449" width="463" height="140" key="ReplaceDuplicatesPrompt/0.0.1920.1040@0.0.1920.1040" timestamp="1595093660370" />
-    <state x="607" y="154" width="695" height="729" key="RollbackChangesDialog" timestamp="1597158256938">
+    <state x="607" y="154" width="695" height="729" key="RollbackChangesDialog" timestamp="1597300375440">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="607" y="154" width="695" height="729" key="RollbackChangesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1597158256938" />
+    <state x="607" y="154" width="695" height="729" key="RollbackChangesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1597300375440" />
     <state x="315" y="0" width="1280" height="1040" key="SettingsEditor" timestamp="1593706312669">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
