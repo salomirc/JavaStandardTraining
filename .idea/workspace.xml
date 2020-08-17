@@ -7,13 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="087154aa-323b-49ae-a7be-718c32ee6b39" name="Default Changelist" comment="CompletableFuture cancelling experiment.">
-      <change afterPath="$PROJECT_DIR$/src/com/belsoft/project_v2/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/belsoft/project_v2/CustomDictionary.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/belsoft/project_v2/Domain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/belsoft/project_v2/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/belsoft/project_v2/MapInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/belsoft/project_v2/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/belsoft/project_v2/CustomDictionary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/belsoft/project_v2/CustomDictionary.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,7 +28,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="project_v2" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -57,20 +52,12 @@
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.belsoft.the_executive_framework.cancelling_an_completable_futures.sleeping" />
-      <recent name="com.belsoft.the_executive_framework.running_code_on_completion" />
-    </key>
     <key name="MoveMembersDialog.RECENTS_KEY">
       <recent name="com.belsoft.project.Port" />
       <recent name="com.belsoft.refactoring_ood.MortgageCalcOODRefactoring" />
       <recent name="com.belsoft.refactoring_ood.MortgageCalculator" />
       <recent name="com.belsoft.refactoring_ood.MortgageReport" />
       <recent name="com.belsoft.refactoring_ood.Console" />
-    </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.belsoft.project" />
-      <recent name="com.belsoft.refactoring_ood" />
     </key>
     <key name="ExtractSuperBase.RECENT_KEYS">
       <recent name="com.belsoft.interfaces.segregation" />
@@ -81,6 +68,14 @@
       <recent name="$PROJECT_DIR$/src/com/belsoft/project" />
       <recent name="$PROJECT_DIR$/src/com/belsoft/the_executive_framework/project_best_price_finder" />
       <recent name="$PROJECT_DIR$/src/com/belsoft/the_executive_framework/handling_timeouts" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.belsoft.the_executive_framework.cancelling_an_completable_futures.sleeping" />
+      <recent name="com.belsoft.the_executive_framework.running_code_on_completion" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.belsoft.project" />
+      <recent name="com.belsoft.refactoring_ood" />
     </key>
   </component>
   <component name="RunManager" selected="Application.Main (3)">
@@ -229,13 +224,15 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (4)" />
         <item itemvalue="Application.Main (3)" />
         <item itemvalue="Application.Main (2)" />
-        <item itemvalue="Application.Main (4)" />
         <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -387,7 +384,14 @@
       <option name="project" value="LOCAL" />
       <updated>1596439621989</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Implementing a Generic Dictionary project ver.2">
+      <created>1597326313207</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1597326313207</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -409,7 +413,8 @@
     <MESSAGE value="Preparing test project branch." />
     <MESSAGE value="Adding project files." />
     <MESSAGE value="workspace.xml update." />
-    <option name="LAST_COMMIT_MESSAGE" value="workspace.xml update." />
+    <MESSAGE value="Implementing a Generic Dictionary project ver.2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implementing a Generic Dictionary project ver.2" />
   </component>
   <component name="WindowStateProjectService">
     <state x="627" y="220" width="655" height="598" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1593691072047">
@@ -448,10 +453,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="627" y="209" width="655" height="619" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1597300516553" />
-    <state x="0" y="0" width="1915" height="1040" key="CommitChangelistDialog2" timestamp="1597300397848">
+    <state x="0" y="0" width="1915" height="1040" key="CommitChangelistDialog2" timestamp="1597678364224">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="0" y="0" width="1915" height="1040" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1597300397848" />
+    <state x="0" y="0" width="1915" height="1040" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1597678364224" />
     <state x="690" y="220" width="530" height="598" key="FileChooserDialogImpl" timestamp="1593079836700">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -480,22 +485,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1864" height="380" key="GridCell.Tab.-1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1597225591976" />
-    <state width="1864" height="379" key="GridCell.Tab.0.bottom" timestamp="1597323855305">
+    <state width="1864" height="379" key="GridCell.Tab.0.bottom" timestamp="1597337158864">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1864" height="379" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1597323855305" />
-    <state width="1864" height="379" key="GridCell.Tab.0.center" timestamp="1597323855302">
+    <state width="1864" height="379" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1597337158864" />
+    <state width="1864" height="379" key="GridCell.Tab.0.center" timestamp="1597337158864">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1864" height="379" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1597323855302" />
-    <state width="1864" height="379" key="GridCell.Tab.0.left" timestamp="1597323855299">
+    <state width="1864" height="379" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1597337158864" />
+    <state width="1864" height="379" key="GridCell.Tab.0.left" timestamp="1597337158860">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1864" height="379" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1597323855299" />
-    <state width="1864" height="379" key="GridCell.Tab.0.right" timestamp="1597323855304">
+    <state width="1864" height="379" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1597337158860" />
+    <state width="1864" height="379" key="GridCell.Tab.0.right" timestamp="1597337158864">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1864" height="379" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1597323855304" />
+    <state width="1864" height="379" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1597337158864" />
     <state width="1864" height="380" key="GridCell.Tab.1.bottom" timestamp="1597227586104">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -528,10 +533,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="314" height="242" key="ShowFilterAction_Filter_Popup/0.0.1920.1040@0.0.1920.1040" timestamp="1595060945270" />
-    <state x="455" y="192" width="1000" height="654" key="Vcs.Push.Dialog.v2" timestamp="1596439680299">
+    <state x="455" y="192" width="1000" height="654" key="Vcs.Push.Dialog.v2" timestamp="1597678106713">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="455" y="192" width="1000" height="654" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1596439680299" />
+    <state x="455" y="192" width="1000" height="654" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1597678106713" />
     <state width="1065" height="1038" key="com.intellij.byteCodeViewer.ShowByteCodeAction" timestamp="1594902795215">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
