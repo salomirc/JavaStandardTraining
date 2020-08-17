@@ -7,8 +7,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="087154aa-323b-49ae-a7be-718c32ee6b39" name="Default Changelist" comment="CompletableFuture cancelling experiment.">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/belsoft/project_v2/CustomDictionary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/belsoft/project_v2/CustomDictionary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/belsoft/project_v2/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/belsoft/project_v2/CustomDictionary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/belsoft/project_v2/Domain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/belsoft/project_v2/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/belsoft/project_v2/MapInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/belsoft/project_v2/User.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,7 +32,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="project_v2" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -224,8 +228,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main (4)" />
         <item itemvalue="Application.Main (3)" />
+        <item itemvalue="Application.Main (4)" />
         <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main" />
