@@ -6,6 +6,7 @@ public class ComparingObjects {
         var point2 = new Point(1, 2);
 
         System.out.println(point1.equals(new TextBox()));
+        System.out.println(point1 == point2);
         System.out.println(point1.equals(point2));
         System.out.println();
         System.out.println(point1.hashCode());

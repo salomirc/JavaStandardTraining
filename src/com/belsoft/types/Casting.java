@@ -22,10 +22,10 @@ public class Casting {
 
         //parsing
         String s = "1";
-        int f = Integer.parseInt(s) + 2;
+        int i = Integer.parseInt(s) + 2;
 //        Short.parseShort(s);
 //        Float.parseFloat(s);
 //        Double.parseDouble(s);
-        System.out.println(d);
+        System.out.println(i);
     }
 }

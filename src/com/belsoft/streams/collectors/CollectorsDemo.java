@@ -4,6 +4,7 @@ import com.belsoft.streams.Movie;
 
 import java.util.Collection;
 import java.util.List;
+import java.util.Set;
 import java.util.function.Function;
 import java.util.stream.Collectors;
 
@@ -16,17 +17,17 @@ public class CollectorsDemo {
         );
 
         // toList()
-        Collection<Movie> collection = movies.stream()
+        List<Movie> list1 = movies.stream()
                 .filter(movie -> movie.getLikes() > 10)
                 .collect(Collectors.toList());
-        collection.forEach(movie -> System.out.println(movie.getTitle()));
+        list1.forEach(movie -> System.out.println(movie.getTitle()));
         System.out.println();
 
         // toSet()
-        collection = movies.stream()
+        Set<Movie> movieSet = movies.stream()
                 .filter(movie -> movie.getLikes() > 10)
                 .collect(Collectors.toSet());
-        collection.forEach(movie -> System.out.println(movie.getTitle()));
+        movieSet.forEach(movie -> System.out.println(movie.getTitle()));
         System.out.println();
 
         // toMap()

@@ -6,10 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="087154aa-323b-49ae-a7be-718c32ee6b39" name="Default Changelist" comment="CompletableFuture cancelling experiment.">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/belsoft/project_v2/CustomDictionary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/belsoft/project_v2/CustomDictionary.java" afterDir="false" />
-    </list>
+    <list default="true" id="087154aa-323b-49ae-a7be-718c32ee6b39" name="Default Changelist" comment="CompletableFuture cancelling experiment." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />

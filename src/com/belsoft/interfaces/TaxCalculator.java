@@ -10,9 +10,15 @@ public interface TaxCalculator {
         return calculateTaxableIncome(income, expenses);
     }
 
-    // this is a private method in Java interfaces (avoid this!)
+    // this is a private static method in Java interfaces (avoid this!)
     private static double calculateTaxableIncome(double income, double expenses) {
         return income - expenses;
+    }
+
+    // default methods (have implementations) (avoid this!)
+    default void printTwice(String message) {
+        System.out.println(message);
+        System.out.println(message);
     }
 
     // Why the above features are bad ideas in an interface ?

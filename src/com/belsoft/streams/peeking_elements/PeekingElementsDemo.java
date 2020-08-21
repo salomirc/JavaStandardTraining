@@ -12,6 +12,7 @@ public class PeekingElementsDemo {
                 new Movie("d", 30)
         );
 
+        // peek() method used to get the output of each operations (for debugging)
         movies.stream()
                 .filter(movie -> movie.getLikes() > 10)
                 .peek(movie -> System.out.println("filtered: " + movie.getLikes()))

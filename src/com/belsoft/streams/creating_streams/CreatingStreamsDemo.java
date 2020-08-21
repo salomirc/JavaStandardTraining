@@ -29,7 +29,7 @@ public class CreatingStreamsDemo {
         // Generate infinite (can set a limit) streams
 
         // Method A
-        // lazy initialization -> need to be called
+        // lazy evaluation -> need to be called
         // 1.create a stream
         var stream4 = Stream.generate(() -> Math.random());
         stream4

@@ -15,6 +15,13 @@ public class SortingStreamsDemo {
 
         // sorting by title
         movies.stream()
+                   // lambda expression for Comparator interface or an object that implements that interface
+//                .sorted((a, b) -> a.getTitle().compareTo(b.getTitle()))
+
+                   // (better) use the static method comparing() from Comparator interface
+//                .sorted(Comparator.comparing(movie -> movie.getTitle()))
+
+                // replace the lambda expression with method reference
                 .sorted(Comparator.comparing(Movie::getTitle))
                 .forEach(movie -> System.out.println(movie.getTitle()));
         System.out.println();

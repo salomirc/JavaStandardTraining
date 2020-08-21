@@ -28,7 +28,8 @@ public class LambdasDemo {
         greet(message -> System.out.println(message));
 
         // method reference
-        // can reference in this manner instance and static methods of a class and constructors
+        // can reference in this manner, instance and static methods of a class and constructors
+        // Class/Object::method
         greet(System.out::println);
 
         // store lambda into a variable
@@ -59,6 +60,7 @@ public class LambdasDemo {
         return " from Java";
     }
 
+    // referencing static method
     public static void show4() {
         greet(LambdasDemo::print);
     }
@@ -67,6 +69,7 @@ public class LambdasDemo {
         System.out.println("Static method reference.");
     }
 
+    // referencing instance method
     public void show5() {
         var demo = new LambdasDemo();
         greet(demo::instancePrint);
@@ -76,8 +79,8 @@ public class LambdasDemo {
         System.out.println("Instance method reference.");
     }
 
+    // referencing the class constructor
     public void show6() {
-        // Constructor reference
         greet(LambdasDemo::new);
     }
 

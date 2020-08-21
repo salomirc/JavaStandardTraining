@@ -24,7 +24,7 @@ public class Employee {
 //        setHourlyRate(0);
 //    }
 
-    public static void printNUmbersOfemployees() {
+    public static void printNumbersOfemployees() {
         System.out.println(numberOfEmployees);
     }
 
