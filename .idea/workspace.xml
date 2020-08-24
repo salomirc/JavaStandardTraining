@@ -6,7 +6,15 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="087154aa-323b-49ae-a7be-718c32ee6b39" name="Default Changelist" comment="CompletableFuture cancelling experiment." />
+    <list default="true" id="087154aa-323b-49ae-a7be-718c32ee6b39" name="Default Changelist" comment="2nd course lecture updates.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/belsoft/collections/collection_interface/CollectionsDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/belsoft/collections/collection_interface/CollectionsDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/belsoft/collections/map_interface/MapDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/belsoft/collections/map_interface/MapDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/belsoft/collections/queue_interface/QueueDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/belsoft/collections/queue_interface/QueueDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/belsoft/collections/set_interface/SetDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/belsoft/collections/set_interface/SetDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/belsoft/lambdas/function_interface/LambdasDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/belsoft/lambdas/function_interface/LambdasDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/belsoft/lambdas/lambdas_demo/LambdasDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/belsoft/lambdas/lambdas_demo/LambdasDemo.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -75,26 +83,13 @@
       <recent name="com.belsoft.refactoring_ood" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main (3)">
+  <component name="RunManager" selected="Application.Main (1)">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.belsoft.the_executive_framework.waiting_for_any_task_to_complete.Main" />
+      <option name="MAIN_CLASS_NAME" value="com.belsoft.lambdas.unary_operator_interface.Main" />
       <module name="JavaStandardTraining" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.belsoft.the_executive_framework.waiting_for_any_task_to_complete.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.belsoft.the_executive_framework.handling_timeouts.Main" />
-      <module name="JavaStandardTraining" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.belsoft.the_executive_framework.handling_timeouts.*" />
+          <option name="PATTERN" value="com.belsoft.lambdas.unary_operator_interface.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -103,11 +98,11 @@
       </method>
     </configuration>
     <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.belsoft.project_v2.Main" />
+      <option name="MAIN_CLASS_NAME" value="com.belsoft.collections.set_interface.Main" />
       <module name="JavaStandardTraining" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.belsoft.project_v2.*" />
+          <option name="PATTERN" value="com.belsoft.collections.set_interface.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -116,11 +111,24 @@
       </method>
     </configuration>
     <configuration name="Main (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.belsoft.the_executive_framework.handling_exceptions.Main" />
+      <option name="MAIN_CLASS_NAME" value="com.belsoft.collections.map_interface.Main" />
       <module name="JavaStandardTraining" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.belsoft.the_executive_framework.handling_exceptions.*" />
+          <option name="PATTERN" value="com.belsoft.collections.map_interface.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.belsoft.lambdas.function_interface.Main" />
+      <module name="JavaStandardTraining" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.belsoft.lambdas.function_interface.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -129,24 +137,11 @@
       </method>
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.belsoft.the_executive_framework.waiting_for_all_tasks_to_complete.Main" />
+      <option name="MAIN_CLASS_NAME" value="com.belsoft.lambdas.binary_operator_interface.Main" />
       <module name="JavaStandardTraining" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.belsoft.the_executive_framework.waiting_for_all_tasks_to_complete.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.belsoft.the_executive_framework.cancelling_an_completable_futures.computation.Main" />
-      <module name="JavaStandardTraining" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.belsoft.the_executive_framework.cancelling_an_completable_futures.computation.*" />
+          <option name="PATTERN" value="com.belsoft.lambdas.binary_operator_interface.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -221,11 +216,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main (4)" />
-        <item itemvalue="Application.Main (3)" />
-        <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Main (5)" />
+        <item itemvalue="Application.Main (4)" />
+        <item itemvalue="Application.Main (3)" />
       </list>
     </recent_temporary>
   </component>
@@ -388,7 +383,14 @@
       <option name="project" value="LOCAL" />
       <updated>1597326313207</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="2nd course lecture updates.">
+      <created>1598006580901</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1598006580901</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -411,7 +413,8 @@
     <MESSAGE value="Adding project files." />
     <MESSAGE value="workspace.xml update." />
     <MESSAGE value="Implementing a Generic Dictionary project ver.2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implementing a Generic Dictionary project ver.2" />
+    <MESSAGE value="2nd course lecture updates." />
+    <option name="LAST_COMMIT_MESSAGE" value="2nd course lecture updates." />
   </component>
   <component name="WindowStateProjectService">
     <state x="627" y="220" width="655" height="598" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1593691072047">
@@ -450,10 +453,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="627" y="209" width="655" height="619" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1597300516553" />
-    <state x="0" y="0" width="1915" height="1040" key="CommitChangelistDialog2" timestamp="1597678364224">
+    <state x="0" y="0" width="1915" height="1040" key="CommitChangelistDialog2" timestamp="1598183316088">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="0" y="0" width="1915" height="1040" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1597678364224" />
+    <state x="0" y="0" width="1915" height="1040" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1598183316088" />
     <state x="690" y="220" width="530" height="598" key="FileChooserDialogImpl" timestamp="1593079836700">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -482,22 +485,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1864" height="380" key="GridCell.Tab.-1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1597225591976" />
-    <state width="1864" height="379" key="GridCell.Tab.0.bottom" timestamp="1597337158864">
+    <state width="1864" height="227" key="GridCell.Tab.0.bottom" timestamp="1598282518711">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1864" height="379" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1597337158864" />
-    <state width="1864" height="379" key="GridCell.Tab.0.center" timestamp="1597337158864">
+    <state width="1864" height="227" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1598282518711" />
+    <state width="1864" height="227" key="GridCell.Tab.0.center" timestamp="1598282518708">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1864" height="379" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1597337158864" />
-    <state width="1864" height="379" key="GridCell.Tab.0.left" timestamp="1597337158860">
+    <state width="1864" height="227" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1598282518708" />
+    <state width="1864" height="227" key="GridCell.Tab.0.left" timestamp="1598282518706">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1864" height="379" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1597337158860" />
-    <state width="1864" height="379" key="GridCell.Tab.0.right" timestamp="1597337158864">
+    <state width="1864" height="227" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1598282518706" />
+    <state width="1864" height="227" key="GridCell.Tab.0.right" timestamp="1598282518709">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1864" height="379" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1597337158864" />
+    <state width="1864" height="227" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1598282518709" />
     <state width="1864" height="380" key="GridCell.Tab.1.bottom" timestamp="1597227586104">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -530,10 +533,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="314" height="242" key="ShowFilterAction_Filter_Popup/0.0.1920.1040@0.0.1920.1040" timestamp="1595060945270" />
-    <state x="455" y="192" width="1000" height="654" key="Vcs.Push.Dialog.v2" timestamp="1597678106713">
+    <state x="455" y="192" width="1000" height="654" key="Vcs.Push.Dialog.v2" timestamp="1598006600506">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="455" y="192" width="1000" height="654" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1597678106713" />
+    <state x="455" y="192" width="1000" height="654" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1598006600506" />
     <state width="1065" height="1038" key="com.intellij.byteCodeViewer.ShowByteCodeAction" timestamp="1594902795215">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

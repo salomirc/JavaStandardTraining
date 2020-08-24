@@ -81,6 +81,7 @@ public class LambdasDemo {
 
     // referencing the class constructor
     public void show6() {
+//        greet(message -> new LambdasDemo(message));
         greet(LambdasDemo::new);
     }
 

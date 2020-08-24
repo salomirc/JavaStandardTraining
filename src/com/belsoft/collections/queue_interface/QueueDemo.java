@@ -16,39 +16,45 @@ public class QueueDemo {
         queue.add("c");
         queue.add("a");
         queue.add("b");
-        // b -> a -> c
-        System.out.println(queue);
+        //(head) c <- a <- b (tail)
+        System.out.println("queue = " + queue);
 
         // in the case of ArrayDeque behave the same as add() method
         queue.offer("d");
-        // d -> b -> a -> c
-        System.out.println(queue);
+        //(head) c <- a <- b <- d (tail)
+        System.out.println("queue = " + queue);
 
         var front = queue.peek();
-        System.out.println(front);
+        System.out.println("front by peek() = " + front);
+        System.out.println("queue = " + queue + "\n");
 
+        System.out.println("clear() the queue");
         queue.clear();
+        System.out.println("queue = " + queue);
         // return null if empty queue
         front = queue.peek();
-        System.out.println(front);
+        System.out.println("front by peek() = " + front + "\n");
 
+        System.out.println("repopulate the queue");
         queue.add("c");
         queue.add("a");
         queue.add("b");
-        // b -> a -> c
-        System.out.println(queue);
+        //(head) c <- a <- b (tail)
+        System.out.println("queue = " + queue);
 
         // remove from the head
         // also throws an exception if queue is empty
         front = queue.remove();
-        System.out.println(front);
-        System.out.println(queue);
+        System.out.println("front by remove() = " + front);
+        System.out.println("queue = " + queue + "\n");
 
+        System.out.println("clear() the queue");
         queue.clear();
         System.out.println(queue);
+
         // remove from the head
         // return null if queue is empty
         front = queue.poll();
-        System.out.println(front);
+        System.out.println("remove from the head by poll(), front = " + front);
     }
 }

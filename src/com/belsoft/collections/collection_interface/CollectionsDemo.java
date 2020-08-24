@@ -33,10 +33,11 @@ public class CollectionsDemo {
         // toArray() -> Object[]
         Object[] objectArray = collection.toArray();
 
-        // toArray(new String[0] -> String[] with enough capacity for our colletion
+        // toArray(new String[0] -> String[] with enough capacity for our collection
         // 0 is a convention for enough capacity
         String[] stringArray = collection.toArray(new String[0]);
 
+        // Collection<String> other = new ArrayList<>();
         // other.addAll(collection);
         Collection<String> other = new ArrayList<>(collection);
 

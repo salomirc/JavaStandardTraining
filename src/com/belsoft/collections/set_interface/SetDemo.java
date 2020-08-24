@@ -11,7 +11,9 @@ public class SetDemo {
         set.add("blue");
         set.add("blue");
 
+        System.out.println("Printing the set");
         System.out.println(set);
+        System.out.println("The order of elements is not guaranteed !\n");
 
         Collection<String> collection = new ArrayList<>();
         Collections.addAll(collection, "a", "b", "c", "d", "d");
@@ -25,19 +27,25 @@ public class SetDemo {
         // Arrays.asList("a", "b", "c") in place of new ArrayList<>(); add() ...
         Set<String> set1 = new HashSet<>(Arrays.asList("a", "b", "c"));
         Set<String> set2 = new HashSet<>(Arrays.asList("b", "c", "d"));
-        System.out.println("set1 : " + set1);
-        System.out.println("set2 : " + set2);
+        System.out.println("setA : " + set1);
+        System.out.println("setB : " + set2);
 
         // Union
-        set1.addAll(set2);
-        System.out.println("Union : " + set1);
+        var setA = new HashSet<>(set1);
+        var setB = new HashSet<>(set2);
+        setA.addAll(setB);
+        System.out.println("Union : " + setA);
 
         // Intersection
-        set1.retainAll(set2);
-        System.out.println("Intersection : " + set1);
+        setA = new HashSet<>(set1);
+        setB = new HashSet<>(set2);
+        setA.retainAll(setB);
+        System.out.println("Intersection : " + setA);
 
         // Difference
-        set1.removeAll(set2);
-        System.out.println("Difference : " + set1);
+        setA = new HashSet<>(set1);
+        setB = new HashSet<>(set2);
+        setA.removeAll(setB);
+        System.out.println("Difference A - B : " + setA);
     }
 }
