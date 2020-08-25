@@ -1,4 +1,4 @@
-package com.belsoft.project_v2;
+package com.belsoft.projects.project_custom_dictionary_v2;
 
 public class User {
     private final String name;

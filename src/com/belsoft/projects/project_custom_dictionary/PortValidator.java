@@ -1,4 +1,4 @@
-package com.belsoft.project;
+package com.belsoft.projects.project_custom_dictionary;
 
 public class PortValidator {
     public static final int MAX_PORT_VALUE = 65535;

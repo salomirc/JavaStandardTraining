@@ -6,13 +6,18 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="087154aa-323b-49ae-a7be-718c32ee6b39" name="Default Changelist" comment="2nd course lecture updates.">
-      <change afterPath="$PROJECT_DIR$/src/com/belsoft/project_v2/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/belsoft/project_v2/CustomDictionary.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/belsoft/project_v2/Domain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/belsoft/project_v2/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/belsoft/project_v2/MapInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/belsoft/project_v2/User.java" afterDir="false" />
+    <list default="true" id="087154aa-323b-49ae-a7be-718c32ee6b39" name="Default Changelist" comment="CustomDictionary v2 merge.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/belsoft/project/CustomDictionary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/belsoft/projects/project_custom_dictionary/CustomDictionary.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/belsoft/project/IpAddressValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/belsoft/projects/project_custom_dictionary/IpAddressValidator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/belsoft/project/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/belsoft/projects/project_custom_dictionary/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/belsoft/project/PortValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/belsoft/projects/project_custom_dictionary/PortValidator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/belsoft/project_v2/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/belsoft/projects/project_custom_dictionary_v2/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/belsoft/project_v2/CustomDictionary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/belsoft/projects/project_custom_dictionary_v2/CustomDictionary.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/belsoft/project_v2/Domain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/belsoft/projects/project_custom_dictionary_v2/Domain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/belsoft/project_v2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/belsoft/projects/project_custom_dictionary_v2/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/belsoft/project_v2/MapInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/belsoft/projects/project_custom_dictionary_v2/MapInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/belsoft/project_v2/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/belsoft/projects/project_custom_dictionary_v2/User.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,7 +37,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="project_v2" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -389,7 +394,14 @@
       <option name="project" value="LOCAL" />
       <updated>1598006580901</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="CustomDictionary v2 merge.">
+      <created>1598341761411</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1598341761411</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -413,7 +425,8 @@
     <MESSAGE value="workspace.xml update." />
     <MESSAGE value="Implementing a Generic Dictionary project ver.2" />
     <MESSAGE value="2nd course lecture updates." />
-    <option name="LAST_COMMIT_MESSAGE" value="2nd course lecture updates." />
+    <MESSAGE value="CustomDictionary v2 merge." />
+    <option name="LAST_COMMIT_MESSAGE" value="CustomDictionary v2 merge." />
   </component>
   <component name="WindowStateProjectService">
     <state x="627" y="220" width="655" height="598" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1593691072047">
@@ -452,14 +465,18 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="627" y="209" width="655" height="619" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1597300516553" />
-    <state x="0" y="0" width="1915" height="1040" key="CommitChangelistDialog2" timestamp="1598183316088">
+    <state x="0" y="0" width="1915" height="1040" key="CommitChangelistDialog2" timestamp="1598342026346">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="0" y="0" width="1915" height="1040" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1598183316088" />
+    <state x="0" y="0" width="1915" height="1040" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1598342026346" />
     <state x="690" y="220" width="530" height="598" key="FileChooserDialogImpl" timestamp="1593079836700">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="220" width="530" height="598" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1593079836700" />
+    <state width="403" height="333" key="Git.Branch.Popup" timestamp="1598342479068">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="403" height="333" key="Git.Branch.Popup/0.0.1920.1040@0.0.1920.1040" timestamp="1598342479068" />
     <state x="737" y="397" width="527" height="483" key="Github.ShareDialog" timestamp="1593079758288">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -532,10 +549,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="314" height="242" key="ShowFilterAction_Filter_Popup/0.0.1920.1040@0.0.1920.1040" timestamp="1595060945270" />
-    <state x="455" y="192" width="1000" height="654" key="Vcs.Push.Dialog.v2" timestamp="1598006600506">
+    <state x="455" y="192" width="1000" height="654" key="Vcs.Push.Dialog.v2" timestamp="1598341769897">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="455" y="192" width="1000" height="654" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1598006600506" />
+    <state x="455" y="192" width="1000" height="654" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1598341769897" />
     <state width="1065" height="1038" key="com.intellij.byteCodeViewer.ShowByteCodeAction" timestamp="1594902795215">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

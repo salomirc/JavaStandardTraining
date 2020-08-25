@@ -1,4 +1,4 @@
-package com.belsoft.project;
+package com.belsoft.projects.project_custom_dictionary;
 
 public class IpAddressValidator {
     private static final String zeroTo255
