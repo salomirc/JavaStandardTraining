@@ -7,13 +7,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="087154aa-323b-49ae-a7be-718c32ee6b39" name="Default Changelist" comment="2nd course lecture updates.">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/belsoft/collections/collection_interface/CollectionsDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/belsoft/collections/collection_interface/CollectionsDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/belsoft/collections/map_interface/MapDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/belsoft/collections/map_interface/MapDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/belsoft/collections/queue_interface/QueueDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/belsoft/collections/queue_interface/QueueDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/belsoft/collections/set_interface/SetDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/belsoft/collections/set_interface/SetDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/belsoft/lambdas/function_interface/LambdasDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/belsoft/lambdas/function_interface/LambdasDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/belsoft/lambdas/lambdas_demo/LambdasDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/belsoft/lambdas/lambdas_demo/LambdasDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/belsoft/project_v2/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/belsoft/project_v2/CustomDictionary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/belsoft/project_v2/Domain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/belsoft/project_v2/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/belsoft/project_v2/MapInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/belsoft/project_v2/User.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
