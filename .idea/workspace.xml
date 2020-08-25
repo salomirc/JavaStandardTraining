@@ -8,16 +8,6 @@
   <component name="ChangeListManager">
     <list default="true" id="087154aa-323b-49ae-a7be-718c32ee6b39" name="Default Changelist" comment="CustomDictionary v2 merge.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/belsoft/project/CustomDictionary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/belsoft/projects/project_custom_dictionary/CustomDictionary.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/belsoft/project/IpAddressValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/belsoft/projects/project_custom_dictionary/IpAddressValidator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/belsoft/project/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/belsoft/projects/project_custom_dictionary/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/belsoft/project/PortValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/belsoft/projects/project_custom_dictionary/PortValidator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/belsoft/project_v2/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/belsoft/projects/project_custom_dictionary_v2/Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/belsoft/project_v2/CustomDictionary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/belsoft/projects/project_custom_dictionary_v2/CustomDictionary.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/belsoft/project_v2/Domain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/belsoft/projects/project_custom_dictionary_v2/Domain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/belsoft/project_v2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/belsoft/projects/project_custom_dictionary_v2/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/belsoft/project_v2/MapInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/belsoft/projects/project_custom_dictionary_v2/MapInfo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/belsoft/project_v2/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/belsoft/projects/project_custom_dictionary_v2/User.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,72 +77,7 @@
       <recent name="com.belsoft.refactoring_ood" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main (1)">
-    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.belsoft.lambdas.unary_operator_interface.Main" />
-      <module name="JavaStandardTraining" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.belsoft.lambdas.unary_operator_interface.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.belsoft.collections.set_interface.Main" />
-      <module name="JavaStandardTraining" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.belsoft.collections.set_interface.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.belsoft.collections.map_interface.Main" />
-      <module name="JavaStandardTraining" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.belsoft.collections.map_interface.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.belsoft.lambdas.function_interface.Main" />
-      <module name="JavaStandardTraining" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.belsoft.lambdas.function_interface.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.belsoft.lambdas.binary_operator_interface.Main" />
-      <module name="JavaStandardTraining" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.belsoft.lambdas.binary_operator_interface.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.belsoft.the_executive_framework.cancelling_completable_futures_experiment.sleeping.Main" />
       <module name="JavaStandardTraining" />
@@ -218,15 +143,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.Main (1)" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Main (5)" />
-        <item itemvalue="Application.Main (4)" />
-        <item itemvalue="Application.Main (3)" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
@@ -433,10 +349,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="627" y="220" width="655" height="598" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1593691072047" />
-    <state x="414" y="170" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1596439511928">
+    <state x="414" y="170" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1598342629600">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="414" y="170" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1596439511928" />
+    <state x="414" y="170" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1598342629600" />
     <state x="618" y="303" width="802" height="431" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1594904703216">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -465,10 +381,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="627" y="209" width="655" height="619" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1597300516553" />
-    <state x="0" y="0" width="1915" height="1040" key="CommitChangelistDialog2" timestamp="1598342026346">
+    <state x="0" y="0" width="1915" height="1040" key="CommitChangelistDialog2" timestamp="1598342614057">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="0" y="0" width="1915" height="1040" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1598342026346" />
+    <state x="0" y="0" width="1915" height="1040" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1598342614057" />
     <state x="690" y="220" width="530" height="598" key="FileChooserDialogImpl" timestamp="1593079836700">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
