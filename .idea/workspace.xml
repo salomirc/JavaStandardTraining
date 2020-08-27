@@ -6,7 +6,32 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="087154aa-323b-49ae-a7be-718c32ee6b39" name="Default Changelist" comment="CustomDictionary v2 merge.">
+    <list default="true" id="087154aa-323b-49ae-a7be-718c32ee6b39" name="Default Changelist" comment="workspace.xml update">
+      <change afterPath="$PROJECT_DIR$/src/com/belsoft/projects/project_university_assignment/AcademicEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/belsoft/projects/project_university_assignment/Course.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/belsoft/projects/project_university_assignment/Exam.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/belsoft/projects/project_university_assignment/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/belsoft/projects/project_university_assignment/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/belsoft/projects/project_university_assignment/Teacher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/belsoft/projects/project_university_assignment_v2/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/belsoft/projects/project_university_assignment_v2/interfaces/ICourseDbService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/belsoft/projects/project_university_assignment_v2/interfaces/IDbService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/belsoft/projects/project_university_assignment_v2/interfaces/IExamDbService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/belsoft/projects/project_university_assignment_v2/interfaces/IStudentDbService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/belsoft/projects/project_university_assignment_v2/interfaces/ITeacherDbService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/belsoft/projects/project_university_assignment_v2/models/AcademicEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/belsoft/projects/project_university_assignment_v2/models/Course.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/belsoft/projects/project_university_assignment_v2/models/Exam.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/belsoft/projects/project_university_assignment_v2/models/IdEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/belsoft/projects/project_university_assignment_v2/models/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/belsoft/projects/project_university_assignment_v2/models/Teacher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/belsoft/projects/project_university_assignment_v2/services/CoursesDbService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/belsoft/projects/project_university_assignment_v2/services/DataBase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/belsoft/projects/project_university_assignment_v2/services/DbService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/belsoft/projects/project_university_assignment_v2/services/DbServiceBase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/belsoft/projects/project_university_assignment_v2/services/ExamDbService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/belsoft/projects/project_university_assignment_v2/services/StudentDbService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/belsoft/projects/project_university_assignment_v2/services/TeacherDbService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -18,8 +43,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Kotlin File" />
-        <option value="Interface" />
         <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -51,6 +76,11 @@
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.belsoft.projects.project_university_assignment_v2" />
+      <recent name="com.belsoft.the_executive_framework.cancelling_an_completable_futures.sleeping" />
+      <recent name="com.belsoft.the_executive_framework.running_code_on_completion" />
+    </key>
     <key name="MoveMembersDialog.RECENTS_KEY">
       <recent name="com.belsoft.project.Port" />
       <recent name="com.belsoft.refactoring_ood.MortgageCalcOODRefactoring" />
@@ -58,7 +88,12 @@
       <recent name="com.belsoft.refactoring_ood.MortgageReport" />
       <recent name="com.belsoft.refactoring_ood.Console" />
     </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.belsoft.project" />
+      <recent name="com.belsoft.refactoring_ood" />
+    </key>
     <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="com.belsoft.projects.project_university_assignment_v2.services" />
       <recent name="com.belsoft.interfaces.segregation" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
@@ -68,16 +103,73 @@
       <recent name="$PROJECT_DIR$/src/com/belsoft/the_executive_framework/project_best_price_finder" />
       <recent name="$PROJECT_DIR$/src/com/belsoft/the_executive_framework/handling_timeouts" />
     </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.belsoft.the_executive_framework.cancelling_an_completable_futures.sleeping" />
-      <recent name="com.belsoft.the_executive_framework.running_code_on_completion" />
-    </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.belsoft.project" />
-      <recent name="com.belsoft.refactoring_ood" />
-    </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Main (2)">
+    <configuration name="ComparingObjects" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.belsoft.inheritance.ComparingObjects" />
+      <module name="JavaStandardTraining" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.belsoft.inheritance.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.belsoft.inheritance.Main" />
+      <module name="JavaStandardTraining" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.belsoft.inheritance.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.belsoft.projects.project_university_assignment_v2.Main" />
+      <module name="JavaStandardTraining" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.belsoft.projects.project_university_assignment_v2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.belsoft.streams.collectors.Main" />
+      <module name="JavaStandardTraining" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.belsoft.streams.collectors.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.belsoft.projects.project_university_assignment.Main" />
+      <module name="JavaStandardTraining" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.belsoft.projects.project_university_assignment.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.belsoft.the_executive_framework.cancelling_completable_futures_experiment.sleeping.Main" />
       <module name="JavaStandardTraining" />
@@ -143,6 +235,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main (2)" />
+        <item itemvalue="Application.Main (3)" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.ComparingObjects" />
+        <item itemvalue="Application.Main (1)" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
@@ -317,7 +418,14 @@
       <option name="project" value="LOCAL" />
       <updated>1598341761411</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="workspace.xml update">
+      <created>1598342650215</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1598342650215</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -342,7 +450,8 @@
     <MESSAGE value="Implementing a Generic Dictionary project ver.2" />
     <MESSAGE value="2nd course lecture updates." />
     <MESSAGE value="CustomDictionary v2 merge." />
-    <option name="LAST_COMMIT_MESSAGE" value="CustomDictionary v2 merge." />
+    <MESSAGE value="workspace.xml update" />
+    <option name="LAST_COMMIT_MESSAGE" value="workspace.xml update" />
   </component>
   <component name="WindowStateProjectService">
     <state x="627" y="220" width="655" height="598" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1593691072047">
@@ -357,18 +466,18 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="618" y="303" width="802" height="431" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1594904703216" />
-    <state x="721" y="130" width="660" height="777" key="#com.intellij.ide.util.MemberChooser" timestamp="1597322525434">
+    <state x="913" y="148" width="660" height="777" key="#com.intellij.ide.util.MemberChooser" timestamp="1598544112250">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="721" y="130" width="660" height="777" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1597322525434" />
+    <state x="913" y="148" width="660" height="777" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1598544112250" />
     <state x="622" y="265" width="656" height="510" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1595067746019">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="622" y="265" width="656" height="510" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1595067746019" />
-    <state x="667" y="396" width="585" height="256" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1595067705466">
+    <state x="667" y="396" width="742" height="256" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1598343094127">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="667" y="396" width="585" height="256" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1920.1040@0.0.1920.1040" timestamp="1595067705466" />
+    <state x="667" y="396" width="742" height="256" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1920.1040@0.0.1920.1040" timestamp="1598343094127" />
     <state x="747" y="261" width="720" height="565" key="#com.intellij.refactoring.move.moveMembers.MoveMembersDialog" timestamp="1595067788015">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -381,18 +490,26 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="627" y="209" width="655" height="619" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1597300516553" />
-    <state x="0" y="0" width="1915" height="1040" key="CommitChangelistDialog2" timestamp="1598342614057">
+    <state x="658" y="205" key="#xdebugger.evaluate" timestamp="1598541007419">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="0" y="0" width="1915" height="1040" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1598342614057" />
+    <state x="658" y="205" key="#xdebugger.evaluate/0.0.1920.1040@0.0.1920.1040" timestamp="1598541007419" />
+    <state x="0" y="0" width="1915" height="1040" key="CommitChangelistDialog2" timestamp="1598436486867">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="0" y="0" width="1915" height="1040" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1598436486867" />
+    <state width="461" height="581" key="DebuggerActiveHint" timestamp="1598542145653">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="461" height="581" key="DebuggerActiveHint/0.0.1920.1040@0.0.1920.1040" timestamp="1598542145653" />
     <state x="690" y="220" width="530" height="598" key="FileChooserDialogImpl" timestamp="1593079836700">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="220" width="530" height="598" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1593079836700" />
-    <state width="403" height="333" key="Git.Branch.Popup" timestamp="1598342479068">
+    <state width="415" height="345" key="Git.Branch.Popup" timestamp="1598342788927">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="403" height="333" key="Git.Branch.Popup/0.0.1920.1040@0.0.1920.1040" timestamp="1598342479068" />
+    <state width="415" height="345" key="Git.Branch.Popup/0.0.1920.1040@0.0.1920.1040" timestamp="1598342788927" />
     <state x="737" y="397" width="527" height="483" key="Github.ShareDialog" timestamp="1593079758288">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -417,38 +534,38 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1864" height="380" key="GridCell.Tab.-1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1597225591976" />
-    <state width="1864" height="227" key="GridCell.Tab.0.bottom" timestamp="1598282518711">
+    <state width="1864" height="437" key="GridCell.Tab.0.bottom" timestamp="1598544314399">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1864" height="227" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1598282518711" />
-    <state width="1864" height="227" key="GridCell.Tab.0.center" timestamp="1598282518708">
+    <state width="1864" height="437" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1598544314399" />
+    <state width="1864" height="437" key="GridCell.Tab.0.center" timestamp="1598544314394">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1864" height="227" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1598282518708" />
-    <state width="1864" height="227" key="GridCell.Tab.0.left" timestamp="1598282518706">
+    <state width="1864" height="437" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1598544314394" />
+    <state width="1864" height="437" key="GridCell.Tab.0.left" timestamp="1598544314392">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1864" height="227" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1598282518706" />
-    <state width="1864" height="227" key="GridCell.Tab.0.right" timestamp="1598282518709">
+    <state width="1864" height="437" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1598544314392" />
+    <state width="1864" height="437" key="GridCell.Tab.0.right" timestamp="1598544314397">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1864" height="227" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1598282518709" />
-    <state width="1864" height="380" key="GridCell.Tab.1.bottom" timestamp="1597227586104">
+    <state width="1864" height="437" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1598544314397" />
+    <state width="1864" height="332" key="GridCell.Tab.1.bottom" timestamp="1598542145787">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1864" height="380" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1597227586104" />
-    <state width="1864" height="380" key="GridCell.Tab.1.center" timestamp="1597227586101">
+    <state width="1864" height="332" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1598542145787" />
+    <state width="1864" height="332" key="GridCell.Tab.1.center" timestamp="1598542145785">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1864" height="380" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1597227586101" />
-    <state width="1864" height="380" key="GridCell.Tab.1.left" timestamp="1597227586100">
+    <state width="1864" height="332" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1598542145785" />
+    <state width="1864" height="332" key="GridCell.Tab.1.left" timestamp="1598542145784">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1864" height="380" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1597227586100" />
-    <state width="1864" height="380" key="GridCell.Tab.1.right" timestamp="1597227586102">
+    <state width="1864" height="332" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1598542145784" />
+    <state width="1864" height="332" key="GridCell.Tab.1.right" timestamp="1598542145786">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1864" height="380" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1597227586102" />
+    <state width="1864" height="332" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1598542145786" />
     <state x="728" y="449" width="463" height="140" key="ReplaceDuplicatesPrompt" timestamp="1595093660370">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -465,44 +582,47 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="314" height="242" key="ShowFilterAction_Filter_Popup/0.0.1920.1040@0.0.1920.1040" timestamp="1595060945270" />
-    <state x="455" y="192" width="1000" height="654" key="Vcs.Push.Dialog.v2" timestamp="1598341769897">
+    <state width="742" height="498" key="SwitcherDM" timestamp="1598429707859">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="455" y="192" width="1000" height="654" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1598341769897" />
+    <state width="742" height="498" key="SwitcherDM/0.0.1920.1040@0.0.1920.1040" timestamp="1598429707859" />
+    <state x="455" y="192" width="1000" height="654" key="Vcs.Push.Dialog.v2" timestamp="1598342659182">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="455" y="192" width="1000" height="654" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1598342659182" />
     <state width="1065" height="1038" key="com.intellij.byteCodeViewer.ShowByteCodeAction" timestamp="1594902795215">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1065" height="1038" key="com.intellij.byteCodeViewer.ShowByteCodeAction/0.0.1920.1040@0.0.1920.1040" timestamp="1594902795215" />
-    <state x="329" y="197" width="1251" height="643" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1597158230249">
+    <state x="329" y="197" width="1251" height="643" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1598375158455">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="329" y="197" width="1251" height="643" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1920.1040@0.0.1920.1040" timestamp="1597158230249" />
-    <state x="685" y="216" width="904" height="690" key="extract.method.dialog" timestamp="1595093626202">
+    <state x="329" y="197" width="1251" height="643" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1920.1040@0.0.1920.1040" timestamp="1598375158455" />
+    <state x="783" y="350" width="904" height="690" key="extract.method.dialog" timestamp="1598459168223">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="685" y="216" width="904" height="690" key="extract.method.dialog/0.0.1920.1040@0.0.1920.1040" timestamp="1595093626202" />
-    <state x="578" y="43" width="764" height="951" key="find.popup" timestamp="1595760982001">
+    <state x="783" y="350" width="904" height="690" key="extract.method.dialog/0.0.1920.1040@0.0.1920.1040" timestamp="1598459168223" />
+    <state x="578" y="43" width="850" height="951" key="find.popup" timestamp="1598366280312">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="578" y="43" width="764" height="951" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1595760982001" />
-    <state x="638" y="223" width="634" height="592" key="refactoring.ChangeSignatureDialog" timestamp="1593857674988">
+    <state x="578" y="43" width="850" height="951" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1598366280312" />
+    <state x="638" y="223" width="634" height="592" key="refactoring.ChangeSignatureDialog" timestamp="1598443593603">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="638" y="223" width="634" height="592" key="refactoring.ChangeSignatureDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1593857674988" />
+    <state x="638" y="223" width="634" height="592" key="refactoring.ChangeSignatureDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1598443593603" />
     <state x="540" y="233" key="run.anything.popup" timestamp="1595768024451">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="540" y="233" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1595768024451" />
-    <state x="539" y="5" width="840" height="1034" key="search.everywhere.popup" timestamp="1595760914590">
+    <state x="539" y="5" width="840" height="1034" key="search.everywhere.popup" timestamp="1598377033613">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="539" y="5" width="840" height="1034" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1595760914590" />
+    <state x="539" y="5" width="840" height="1034" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1598377033613" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
       <configuration name="Application">
-        <watch expression="principal" language="JAVA" />
-        <watch expression="annualInterest" language="JAVA" />
+        <watch expression="exam.getStudentId()" />
       </configuration>
     </watches-manager>
   </component>
