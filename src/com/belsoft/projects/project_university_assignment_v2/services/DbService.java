@@ -1,13 +1,13 @@
 package com.belsoft.projects.project_university_assignment_v2.services;
 
-import com.belsoft.projects.project_university_assignment_v2.interfaces.IDbService;
+import com.belsoft.projects.project_university_assignment_v2.interfaces.*;
 
 public class DbService implements IDbService {
     private static DbService instance;
-    private final TeacherDbService teacherDbService;
-    private final CoursesDbService coursesDbService;
-    private final StudentDbService studentDbService;
-    private final ExamDbService examDbService;
+    private final ITeacherDbService teacherDbService;
+    private final ICourseDbService coursesDbService;
+    private final IStudentDbService studentDbService;
+    private final IExamDbService examDbService;
 
     private DbService() {
         DataBase db = new DataBase();
@@ -22,19 +22,19 @@ public class DbService implements IDbService {
         return instance;
     }
 
-    public TeacherDbService getTeacherDbService() {
+    public ITeacherDbService getTeacherDbService() {
         return teacherDbService;
     }
 
-    public CoursesDbService getCoursesDbService() {
+    public ICourseDbService getCoursesDbService() {
         return coursesDbService;
     }
 
-    public StudentDbService getStudentDbService() {
+    public IStudentDbService getStudentDbService() {
         return studentDbService;
     }
 
-    public ExamDbService getExamDbService() {
+    public IExamDbService getExamDbService() {
         return examDbService;
     }
 }

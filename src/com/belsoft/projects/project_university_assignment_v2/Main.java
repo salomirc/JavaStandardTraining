@@ -8,9 +8,9 @@ import com.belsoft.projects.project_university_assignment_v2.services.DbService;
 import com.belsoft.projects.project_university_assignment_v2.interfaces.IDbService;
 
 public class Main {
-    private static final IDbService dbService = DbService.getInstance();
-
     public static void main(String[] args) {
+
+        IDbService dbService = DbService.getInstance();
 
         var teacherJohn = new Teacher("John");
         var teacherMary = new Teacher("Mary");
