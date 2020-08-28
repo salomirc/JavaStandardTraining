@@ -29,6 +29,7 @@ public class TeacherDbService extends DbServiceBase implements ITeacherDbService
         return new ArrayList<>(db.getTeachers());
     }
 
+    @Override
     public void printAllTeachers() {
         printAllEntity(getTeachers());
     }
