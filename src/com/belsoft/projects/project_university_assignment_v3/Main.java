@@ -53,5 +53,9 @@ public class Main {
         math.printAllPassingGradeStudents();
         math.printAllFailingGradeStudents();
         math.computeAverageGrade();
+        math.computeStatistics();
+
+        teacherBill.printAllCourses();
+        teacherBill.printWorkBalance();
     }
 }

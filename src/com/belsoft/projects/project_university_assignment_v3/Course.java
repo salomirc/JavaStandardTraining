@@ -1,12 +1,15 @@
 package com.belsoft.projects.project_university_assignment_v3;
 
+import java.text.NumberFormat;
 import java.util.*;
+import java.util.function.Predicate;
 import java.util.stream.Collectors;
+import java.util.stream.Stream;
 
 public class Course extends AcademicEntity {
     private final List<Student> students = new ArrayList<>();
-    private Teacher teacher;
 
+    private Teacher teacher;
     public Course(String name) {
         super(name);
     }
@@ -44,13 +47,7 @@ public class Course extends AcademicEntity {
 
     public void printAllPassingGradeStudents() {
         var collect = students.stream()
-                .filter(student -> student
-                        .getExams()
-                        .stream()
-                        .filter(exam -> exam.getCourse() == this)
-                        .findAny()
-                        .get()
-                        .getMark() >= 5)
+                .filter(this::getPassingExamPredicate)
                 .collect(Collectors.toMap(AcademicEntity::getName, student -> student.getExams().stream()
                         .filter(exam -> exam.getMark() >= 5)
                         .findAny()
@@ -65,13 +62,7 @@ public class Course extends AcademicEntity {
 
     public void printAllFailingGradeStudents() {
         var collect = students.stream()
-                .filter(student -> student
-                        .getExams()
-                        .stream()
-                        .filter(exam -> exam.getCourse() == this)
-                        .findAny()
-                        .get()
-                        .getMark() < 5)
+                .filter(this::getFailingExamPredicate)
                 .collect(Collectors.toMap(AcademicEntity::getName, student -> student.getExams().stream()
                         .filter(exam -> exam.getMark() < 5)
                         .findAny()
@@ -84,7 +75,46 @@ public class Course extends AcademicEntity {
         System.out.println("Students failing the " + this  + " course: " + collect);
     }
 
+    private float getMarkFromStudent(Student student) {
+        return getCurrentCourseExam(student).getMark();
+    }
+
+    private boolean getPassingExamPredicate(Student student) {
+        return getMarkFromStudent(student) >= 5;
+    }
+
+    private boolean getFailingExamPredicate(Student student) {
+        return getMarkFromStudent(student) < 5;
+    }
+
+    private boolean getLowPerformerPredicate(Student student) {
+        var mark = getMarkFromStudent(student);
+        return (mark >= 5 && mark <= 7.5);
+    }
+
+    private boolean getMediumPerformerPredicate(Student student) {
+        var mark = getMarkFromStudent(student);
+        return (mark > 7.5 && mark <= 9.5);
+    }
+
+    private boolean getGoodPerformerPredicate(Student student) {
+        return getMarkFromStudent(student) > 9.5;
+    }
+
+    private Exam getCurrentCourseExam(Student student) {
+        return student
+                .getExams()
+                .stream()
+                .filter(exam -> exam.getCourse() == this)
+                .findAny()
+                .get();
+    }
+
     public void computeAverageGrade() {
+        if (students.size() == 0) {
+            printNoStudentsAttending();
+            return;
+        }
         Float sum = students.stream()
                 .map(student -> student
                         .getExams()
@@ -96,8 +126,45 @@ public class Course extends AcademicEntity {
                 )
                 .peek(mark -> System.out.print(mark + ", "))
                 .reduce(0f, Float::sum);
-        var avg = sum > 0 ? sum / students.size() : 0;
+        var avg = sum / students.size();
         System.out.println("Average grade of students attending " + this + " course = " + avg);
+    }
+
+    private void printNoStudentsAttending() {
+        System.out.println("No students are attending this course.");
+    }
+
+    public void computeStatistics() {
+        if (students.size() == 0) {
+            printNoStudentsAttending();
+            return;
+        }
+        var passingStudents = students.stream()
+                .filter(this::getPassingExamPredicate)
+                .count();
+        var lowPerformers = students.stream()
+                .filter(this::getLowPerformerPredicate)
+                .count();
+        var mediumPerformers = students.stream()
+                .filter(this::getMediumPerformerPredicate)
+                .count();
+        var goodPerformers = students.stream()
+                .filter(this::getGoodPerformerPredicate)
+                .count();
+        var allStudents = (long) students.size();
+
+        var passing = computePercent(passingStudents, allStudents);
+        var low = computePercent(lowPerformers, allStudents);
+        var medium = computePercent(mediumPerformers, allStudents);
+        var good = computePercent(goodPerformers, allStudents);
+
+        System.out.println("Students with grades over 5 : " + passing + ", between 5 and 7.5 : " + low +
+                ", between 7.5 and 9.5 : " + medium + ", over 9.5 : " + good);
+    }
+
+    private String computePercent(Long count, Long totalNumber) {
+        var percent = count / (float)totalNumber;
+        return NumberFormat.getPercentInstance().format(percent);
     }
 
     public Teacher getTeacher() {
@@ -106,5 +173,9 @@ public class Course extends AcademicEntity {
 
     public void setTeacher(Teacher teacher) {
         this.teacher = teacher;
+    }
+
+    public List<Student> getStudents() {
+        return students;
     }
 }

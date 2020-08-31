@@ -33,7 +33,7 @@ public class Student extends AcademicEntity {
     }
 
     public void printCredits() {
-        var credits = (int)(computeGrade() * Exam.CREDIT_MULTIPLIER);
+        var credits = (int)(computeGrade() * Constants.EXAM_CREDIT_MULTIPLIER);
         System.out.println("Credits = " + credits);
     }
 
@@ -53,7 +53,7 @@ public class Student extends AcademicEntity {
     }
 
     private int computeScholarship() {
-        return hasScholarship() ? (int)(computeGrade() * Exam.SCHOLARSHIP_MULTIPLIER) : 0;
+        return hasScholarship() ? (int)(computeGrade() * Constants.SCHOLARSHIP_MULTIPLIER) : 0;
     }
 
     public List<Exam> getExams() {

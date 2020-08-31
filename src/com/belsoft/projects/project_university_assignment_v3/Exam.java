@@ -1,8 +1,6 @@
 package com.belsoft.projects.project_university_assignment_v3;
 
 public class Exam {
-    public static final short CREDIT_MULTIPLIER = 10;
-    public static final short SCHOLARSHIP_MULTIPLIER = 100;
     private final Course course;
     private final float mark;
     private final Student student;
