@@ -45,7 +45,7 @@ public class Student extends AcademicEntity {
         var sum = exams.stream()
                 .map(Exam::getMark)
                 .reduce(0f, Float::sum);
-        return sum > 0 ? sum / exams.size() : 0;
+        return exams.isEmpty() ? 0 : sum / exams.size();
     }
 
     private boolean hasScholarship() {

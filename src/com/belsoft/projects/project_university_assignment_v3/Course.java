@@ -2,9 +2,7 @@ package com.belsoft.projects.project_university_assignment_v3;
 
 import java.text.NumberFormat;
 import java.util.*;
-import java.util.function.Predicate;
 import java.util.stream.Collectors;
-import java.util.stream.Stream;
 
 public class Course extends AcademicEntity {
     private final List<Student> students = new ArrayList<>();
@@ -111,11 +109,11 @@ public class Course extends AcademicEntity {
     }
 
     public void computeAverageGrade() {
-        if (students.size() == 0) {
+        if (students.isEmpty()) {
             printNoStudentsAttending();
             return;
         }
-        Float sum = students.stream()
+        var sum = students.stream()
                 .map(student -> student
                         .getExams()
                         .stream()
