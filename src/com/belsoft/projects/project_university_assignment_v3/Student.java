@@ -13,6 +13,7 @@ public class Student extends AcademicEntity {
     }
 
     public void attendExam(Exam exam) {
+        if (exam == null) return;
         exams.add(exam);
     }
 

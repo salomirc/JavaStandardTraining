@@ -13,6 +13,7 @@ public class Course extends AcademicEntity {
     }
 
     public void registerStudent(Student student, float mark) {
+        if (student == null) return;
         students.stream()
                 .filter(student1 -> student1 == student)
                 .findAny()
@@ -45,7 +46,7 @@ public class Course extends AcademicEntity {
 
     public void printAllPassingGradeStudents() {
         var collect = students.stream()
-                .filter(this::getPassingExamPredicate)
+                .filter(this::passingExamPredicate)
                 .collect(Collectors.toMap(AcademicEntity::getName, student -> student.getExams().stream()
                         .filter(exam -> exam.getMark() >= 5)
                         .findAny()
@@ -60,7 +61,7 @@ public class Course extends AcademicEntity {
 
     public void printAllFailingGradeStudents() {
         var collect = students.stream()
-                .filter(this::getFailingExamPredicate)
+                .filter(this::failingExamPredicate)
                 .collect(Collectors.toMap(AcademicEntity::getName, student -> student.getExams().stream()
                         .filter(exam -> exam.getMark() < 5)
                         .findAny()
@@ -77,25 +78,25 @@ public class Course extends AcademicEntity {
         return getCurrentCourseExam(student).getMark();
     }
 
-    private boolean getPassingExamPredicate(Student student) {
+    private boolean passingExamPredicate(Student student) {
         return getMarkFromStudent(student) >= 5;
     }
 
-    private boolean getFailingExamPredicate(Student student) {
+    private boolean failingExamPredicate(Student student) {
         return getMarkFromStudent(student) < 5;
     }
 
-    private boolean getLowPerformerPredicate(Student student) {
+    private boolean lowPerformerPredicate(Student student) {
         var mark = getMarkFromStudent(student);
         return (mark >= 5 && mark <= 7.5);
     }
 
-    private boolean getMediumPerformerPredicate(Student student) {
+    private boolean mediumPerformerPredicate(Student student) {
         var mark = getMarkFromStudent(student);
         return (mark > 7.5 && mark <= 9.5);
     }
 
-    private boolean getGoodPerformerPredicate(Student student) {
+    private boolean goodPerformerPredicate(Student student) {
         return getMarkFromStudent(student) > 9.5;
     }
 
@@ -138,16 +139,16 @@ public class Course extends AcademicEntity {
             return;
         }
         var passingStudents = students.stream()
-                .filter(this::getPassingExamPredicate)
+                .filter(this::passingExamPredicate)
                 .count();
         var lowPerformers = students.stream()
-                .filter(this::getLowPerformerPredicate)
+                .filter(this::lowPerformerPredicate)
                 .count();
         var mediumPerformers = students.stream()
-                .filter(this::getMediumPerformerPredicate)
+                .filter(this::mediumPerformerPredicate)
                 .count();
         var goodPerformers = students.stream()
-                .filter(this::getGoodPerformerPredicate)
+                .filter(this::goodPerformerPredicate)
                 .count();
         var allStudents = (long) students.size();
 

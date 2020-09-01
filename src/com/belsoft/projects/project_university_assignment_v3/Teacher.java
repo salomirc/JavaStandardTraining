@@ -11,6 +11,7 @@ public class Teacher extends AcademicEntity {
     }
 
     public void addCourse(Course course) {
+        if (course == null) return;
         if (course.getTeacher() == null) {
             course.setTeacher(this);
             courses.add(course);
