@@ -16,6 +16,8 @@ public class DownloadFileTask2 implements Runnable {
             System.out.println("Downloading byte " + i);
         }
 
+        System.out.println("Download complete: " + Thread.currentThread().getName());
+
         // Version II
         // When the thread is sleeping
         try {
